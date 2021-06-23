@@ -1,5 +1,6 @@
 import * as React from "react";
-import { LandingPage, ComingSoon } from "./style";
+import { LandingPage, ComingSoon, Devis } from "./style";
+import { Link } from "gatsby";
 
 import { createGlobalStyle } from "styled-components";
 
@@ -23,6 +24,12 @@ const Layout = () => {
       <GlobalStyle />
       <LandingPage>
         <ComingSoon>Coming soon</ComingSoon>
+        <Devis>
+          <p>
+            Would you like to fill out an intake form? Click{" "}
+            <Link to="/devis">HERE</Link>{" "}
+          </p>
+        </Devis>
       </LandingPage>
     </>
   );
