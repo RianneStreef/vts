@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3e3e3e;
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a:link,
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}

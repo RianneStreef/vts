@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/vts",
   siteMetadata: {
     title: "vts",
   },

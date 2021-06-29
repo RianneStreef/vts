@@ -1,34 +1,38 @@
 import * as React from "react";
-import { useState } from "react";
-
-import LandingPage from "../LandingPage/index";
 
 import { createGlobalStyle } from "styled-components";
 
-const GlobalStyle = createGlobalStyle`
+import Header from "../Header/index";
+import Footer from "../Footer/index";
 
+import { LayoutContainer } from "./style";
+
+const GlobalStyle = createGlobalStyle`
   body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     line-height: 1.2;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    height: auto;
   }
-  
+
 `;
 
-const Layout = () => {
-  let languageStoredInLocalStorage = localStorage.getItem("language");
+const Layout = (props) => {
+  let { language, setLanguage } = props;
+  // let languageStoredInLocalStorage = localStorage.getItem("language");
+  // let [language, setLanguage] = useState(
+  //   languageStoredInLocalStorage ? languageStoredInLocalStorage : "english"
+  // );
 
-  let [language, setLanguage] = useState(
-    languageStoredInLocalStorage ? languageStoredInLocalStorage : "english"
-  );
-
-  console.log(language);
   return (
-    <>
+    <LayoutContainer>
       <GlobalStyle />
-      <LandingPage language={language} setLanguage={setLanguage} />
-    </>
+      <Header language={language} setLanguage={setLanguage} />
+      {props.children}
+      <Footer language={language} />
+    </LayoutContainer>
   );
 };
 

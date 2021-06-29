@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const IntakeTitle = styled.h2`
+export const FormContainer = styled.div`
+  padding: 20px;
+`;
+
+export const IntakeTitle = styled.h1`
   margin: 0;
 `;
 

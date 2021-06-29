@@ -1,9 +1,8 @@
 import React from "react";
 
-import flagEn from "../../images/icon-en.png";
-import flagFr from "../../images/icon-fr.png";
+import { StaticImage } from "gatsby-plugin-image";
 
-import { FlagContainer, LanguageIcon } from "../ChooseLanguage/style";
+import "../ChooseLanguage/ChooseLanguage.css";
 
 const ChooseLanguage = (props) => {
   let { language, setLanguage } = props;
@@ -11,29 +10,31 @@ const ChooseLanguage = (props) => {
   function handleSetLanguage(language) {
     console.log(language);
     setLanguage(language);
-    storeLanguageInLocalStorage(language);
+    // storeLanguageInLocalStorage(language);
   }
 
-  function storeLanguageInLocalStorage(language) {
-    localStorage.setItem("language", language);
-  }
+  // function storeLanguageInLocalStorage(language) {
+  //   localStorage.setItem("language", language);
+  // }
 
   return (
-    <FlagContainer>
+    <li>
       {language === "english" ? (
-        <LanguageIcon
-          src={flagFr}
-          onClick={() => handleSetLanguage("french")}
+        <StaticImage
+          className="language-icon"
+          src="../../images/icon-fr.png"
           alt="Set language to French"
+          onClick={() => handleSetLanguage("french")}
         />
       ) : (
-        <LanguageIcon
-          src={flagEn}
-          onClick={() => handleSetLanguage("english")}
+        <StaticImage
+          className="language-icon"
+          src="../../images/icon-en.png"
           alt="Set language to English"
+          onClick={() => handleSetLanguage("english")}
         />
       )}
-    </FlagContainer>
+    </li>
   );
 };
 

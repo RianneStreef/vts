@@ -1,20 +1,19 @@
 import styled from "styled-components";
 
 export const LandingContainer = styled.div`
-  font-family: "Montserrat", sans-serif;
   background-color: #3e3e3e;
   color: #ffffff;
-  height: 100vh;
   justify-content: space-around;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 `;
 
 export const ComingSoon = styled.h1`
   text-align: center;
 `;
 
-export const Vts = styled.h3`
+export const Vts = styled.h2`
   text-align: center;
 `;
 
