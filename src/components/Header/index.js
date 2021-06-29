@@ -17,7 +17,7 @@ const Header = (props) => {
 
   return (
     <div className="header">
-      <p>{languageToUse.Vts}</p>
+      <p className="logo">{languageToUse.Vts}</p>
       <div>
         <nav>
           <ul>

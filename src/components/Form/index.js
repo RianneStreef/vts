@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import { useForm, ValidationError } from "@formspree/react";
 
-import { FormLayout } from "./style";
+import "./Form.css";
 
 import { content } from "../content/languages";
 
@@ -14,7 +14,6 @@ const Form = (props) => {
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
 
-  // const [chosenPackage, setChosenPackage] = useState("");
   const [socialOption, setSocialOption] = useState(false);
 
   const [basic, setBasic] = useState(false);
@@ -26,10 +25,6 @@ const Form = (props) => {
   const [appViewOption, setAppViewOption] = useState(false);
   const [reviewOption, setReviewOption] = useState(false);
   const [emailOption, setEmailOption] = useState(false);
-
-  // function handleSetChosenPackage(changeEvent) {
-  //   setChosenPackage(changeEvent.target.value);
-  // }
 
   function handleSetBasic(changeEvent) {
     setBasic(true);
@@ -77,15 +72,13 @@ const Form = (props) => {
     setEmailOption(JSON.parse(changeEvent.target.value));
   }
 
-  // useEffect(() => {}, [socialOption]);
-
   const [state, handleSubmit] = useForm("xvodqzkz");
   if (state.succeeded) {
-    return <p>Thank you for your interest!</p>;
+    return <p>{languageToUse.thanks}</p>;
   }
 
   return (
-    <FormLayout onSubmit={handleSubmit}>
+    <div className="form-layout" onSubmit={handleSubmit}>
       <h2>{languageToUse.siteInfo}</h2>
       <h3>{languageToUse.personalInfo}</h3>
       <label htmlFor="name">{languageToUse.name}</label>
@@ -99,7 +92,7 @@ const Form = (props) => {
       <ValidationError prefix="Email" field="email" errors={state.errors} />
 
       <label htmlFor="package">{languageToUse.package}</label>
-      <div className="radio-buttons">
+      <div className="radio-buttons package-buttons">
         <input
           type="radio"
           value={"basic"}
@@ -588,11 +581,16 @@ const Form = (props) => {
           )}
         </>
       )}
-
-      <button type="submit" disabled={state.submitting}>
-        Submit
-      </button>
-    </FormLayout>
+      <div className="button-container">
+        <button
+          className="form-submit"
+          type="submit"
+          disabled={state.submitting}
+        >
+          Submit
+        </button>
+      </div>
+    </div>
   );
 };
 

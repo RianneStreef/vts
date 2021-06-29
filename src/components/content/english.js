@@ -70,5 +70,7 @@ export const english = {
   emailPrefix:
     "What would you like us to use? For example: contact, hello, your name.",
 
-  footer: "2021 Copyright VTS Web Design - All rights reserved",
+  thanks: "Thank you for your interest!",
+
+  footer: "2021 ª VTS Web Design - All rights reserved",
 };

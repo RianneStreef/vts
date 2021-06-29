@@ -18,7 +18,7 @@ const ChooseLanguage = (props) => {
   // }
 
   return (
-    <li>
+    <li className="flag-container">
       {language === "english" ? (
         <StaticImage
           className="language-icon"

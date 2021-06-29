@@ -6,7 +6,7 @@ export const LandingContainer = styled.div`
   justify-content: space-around;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  flex: 1;
 `;
 
 export const ComingSoon = styled.h1`
