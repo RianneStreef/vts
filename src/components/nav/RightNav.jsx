@@ -115,11 +115,14 @@ const RightNav = (props) => {
           <span>About Us</span>
         </AnchorLink>
       </li>
+      <span className="dash">-</span>
       <li className="menu-item">
         <AnchorLink to="/#projects" title="Our projects">
           <span>Projects</span>
         </AnchorLink>
       </li>
+      <span className="dash">-</span>
+
       <li className="menu-item">
         <AnchorLink to="/#contact" title="Contact">
           <span>Contact</span>

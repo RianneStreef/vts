@@ -17,3 +17,8 @@
 .menu-item {
   font-family: "P22 Typewriter Regular";
 }
+
+.dash {
+  margin: 15px;
+  font-size: 2em;
+}

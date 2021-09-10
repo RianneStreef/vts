@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="contact-left">
           <form
             className="contact-form"
-            name="contactVTS"
+            name="contact"
             method="post"
             data-netlify="true"
           >
