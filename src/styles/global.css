@@ -13,6 +13,15 @@ p {
   line-height: 25px;;
 }
 
+button {
+  font-family: "P22 Typewriter Regular";
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  min-width: 100px;
+}
+
 .content {
   margin: 0 100px;
 }
+
