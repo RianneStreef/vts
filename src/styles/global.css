@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'P22 Typewriter Regular';
+  src: local('P22 Typewriter Regular'), url(../fonts/P22\ Typewriter\ Regular.ttf) format('truetype');
+}
+
+h1, h2, h3, h4 {
+  font-family: "P22 Typewriter Regular";
+  text-align: center;
+}
