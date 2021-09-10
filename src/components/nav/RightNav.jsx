@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
-// import { Link } from "gatsby";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import "../../styles/global.css";
@@ -77,14 +76,11 @@ const Flag = styled.img`
 `;
 
 const RightNav = (props) => {
-  console.log(props);
   let { open, setOpen, language, setLanguage, languageToUse } = props;
 
   language === "english"
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
-
-  console.log(languageToUse);
 
   const [headerClassName, setHeaderClassName] = useState("");
 

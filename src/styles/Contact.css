@@ -1,9 +1,8 @@
 .contact-total {
   display: flex;
-
 }
 
-.contact-left, .contact-right {
+.contact-total > *{
   width: 50%;
 }
 
@@ -12,7 +11,12 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 100px;
+  padding: 50px;
+  width: 100%;
+}
+
+.contact-left {
+  width: 100%;
 }
 
 .input, textarea {
