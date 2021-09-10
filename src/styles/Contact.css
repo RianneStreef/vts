@@ -1,0 +1,22 @@
+.contact-total {
+  display: flex;
+
+}
+
+.contact-left, .contact-right {
+  width: 50%;
+}
+
+.contact-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+}
+
+.input, textarea {
+  border: none;
+  border-bottom: solid 1px #000000;
+  width: 100%;
+}

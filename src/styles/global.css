@@ -7,3 +7,12 @@ h1, h2, h3, h4 {
   font-family: "P22 Typewriter Regular";
   text-align: center;
 }
+
+p {
+  font-size: 0.6em;
+  line-height: 25px;;
+}
+
+.content {
+  margin: 0 100px;
+}

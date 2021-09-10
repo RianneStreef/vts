@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import "../../styles/global.css";
 
@@ -110,20 +111,19 @@ const RightNav = (props) => {
   return (
     <Ul open={open}>
       <li className="menu-item">
-        <Link to="home" spy="true" smooth="true" onClick={() => setOpen(!open)}>
-          {languageToUse.menuHome}
-        </Link>
+        <AnchorLink to="/#about" title="Our team">
+          <span>About Us</span>
+        </AnchorLink>
       </li>
-
       <li className="menu-item">
-        <Link
-          to="about"
-          spy="true"
-          smooth="true"
-          onClick={() => setOpen(!open)}
-        >
-          {languageToUse.menuAbout}
-        </Link>
+        <AnchorLink to="/#projects" title="Our projects">
+          <span>Projects</span>
+        </AnchorLink>
+      </li>
+      <li className="menu-item">
+        <AnchorLink to="/#contact" title="Contact">
+          <span>Contact</span>
+        </AnchorLink>
       </li>
 
       <li>

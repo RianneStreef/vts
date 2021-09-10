@@ -1,8 +1,9 @@
 import React from "react";
 
-import { AnchorLink } from "gatsby-plugin-anchor-links";
-
 import Layout from "../components/Layout";
+import About from "../components/About";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
 
 const IndexPage = (props) => {
   let { language } = props;
@@ -10,7 +11,7 @@ const IndexPage = (props) => {
   console.log("index page language " + language);
   return (
     <div>
-      <h2>About Us</h2>
+      <About /> <Projects /> <Contact />
     </div>
   );
 };
