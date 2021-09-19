@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
 import { AnchorLink } from "gatsby-plugin-anchor-links";
+import { Link } from "gatsby";
 
 import "../../styles/global.css";
 
@@ -123,6 +124,9 @@ const RightNav = (props) => {
         <AnchorLink to="/#contact" title="Contact">
           <span>Contact</span>
         </AnchorLink>
+      </li>
+      <li>
+        <Link to="/devis">Devis</Link>
       </li>
 
       <li>
