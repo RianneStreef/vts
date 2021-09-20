@@ -53,7 +53,7 @@ const Contact = () => {
         <div className="contact-right">
           <p>
             For any questions, remarks or requests, please do not hesitate to
-            contact us. We will get back to you as soon as wel can.
+            contact us. We will get back to you as soon as we can.
           </p>
         </div>
       </div>

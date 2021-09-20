@@ -5,18 +5,16 @@ import RightNav from "./RightNav";
 import "../../styles/global.css";
 
 const StyledBurger = styled.div`
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column nowrap;
   width: 2rem;
   height: 2rem;
   position: fixed;
   top: 15px;
   right: 20px;
   z-index: 20;
-  display: none;
-  @media (max-width: 768px) {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column nowrap;
-  }
+
   div {
     width: 2rem;
     height: 0.25rem;
@@ -29,12 +27,12 @@ const StyledBurger = styled.div`
     }
     &:nth-child(2) {
       transform: ${({ open }) => (open ? "translateX(100%)" : "translateX(0)")};
-      margin: ${({ open }) => (open ? 0 : "0 0 0 10px")};
+      margin: ${({ open }) => (open ? 0 : "0 0 0 0")};
       opacity: ${({ open }) => (open ? 0 : 1)};
     }
     &:nth-child(3) {
       transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0)")};
-      margin: ${({ open }) => (open ? 0 : "0 0 0 5px")};
+      margin: ${({ open }) => (open ? 0 : "0 0 0 0")};
     }
   }
 `;
