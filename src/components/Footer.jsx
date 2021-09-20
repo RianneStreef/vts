@@ -1,6 +1,6 @@
 import React from "react";
 
-import Subscribe from "../components/Subscribe";
+import InfoPack from "../components/InfoPack";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div>
-        <Subscribe />
+        <InfoPack />
       </div>
       <div>
         <a
