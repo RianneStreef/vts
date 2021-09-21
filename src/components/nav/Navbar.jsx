@@ -16,7 +16,7 @@ const Nav = styled.nav`
 const Navbar = (props) => {
   let { language, setLanguage, languageToUse } = props;
   return (
-    <Nav>
+    <Nav id="navbar">
       <Burger
         language={language}
         setLanguage={setLanguage}

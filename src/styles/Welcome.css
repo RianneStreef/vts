@@ -1,9 +1,18 @@
 .welcome {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
 }
 
 .welcome-logo {
   width: 80%;
 }
+
+
+.welcome-contact-icon {
+  color: #fff;
+  font-size: 50px;
+  margin: 15px;
+}
+

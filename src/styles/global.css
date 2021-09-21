@@ -37,6 +37,15 @@ p {
   line-height: 25px;
 }
 
+ a {
+  text-decoration: none;
+  color: #000;
+}
+
+ a:visited {
+  color: #000;
+}
+
 button {
   font-family: "P22 Typewriter Regular";
   border: none;
