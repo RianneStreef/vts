@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
         setLanguage={setLanguage}
         languageToUse={languageToUse}
       />
-      <section className="content">{childrenWithProps}</section>
+      <section className="main">{childrenWithProps}</section>
       <Footer
         language={language}
         setLanguage={setLanguage}

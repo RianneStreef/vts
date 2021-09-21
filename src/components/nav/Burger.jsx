@@ -11,8 +11,10 @@ const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
   position: fixed;
-  top: 15px;
-  right: 20px;
+
+  //mobile: 15, 20
+  top: 30px;
+  right: 40px;
   z-index: 20;
 
   div {

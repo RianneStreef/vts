@@ -16,9 +16,6 @@ const Footer = () => {
   return (
     <div className="footer">
       <div>
-        <InfoPack />
-      </div>
-      <div>
         <a
           href="https://instagram.com/vtswebdesign"
           alt="Our Instagram account"
@@ -37,7 +34,9 @@ const Footer = () => {
           <FontAwesomeIcon className="contact-icon" icon={faMobileAlt} />
         </a>
       </div>
-
+      <div>
+        <InfoPack />
+      </div>
       <div>
         <p>
           <FontAwesomeIcon className="location-icon" icon={faMapMarkerAlt} />

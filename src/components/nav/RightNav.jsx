@@ -24,7 +24,7 @@ const Ul = styled.ul`
   right: 0;
   height: 100vh;
   width: 300px;
-  padding-top: 3.5rem;
+  padding-top: 5rem;
   margin-top: 0;
   transition: transform 0.3s ease-in-out;
 
@@ -32,7 +32,7 @@ const Ul = styled.ul`
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 10px 30px;
+    margin: 10px 45px;
 
     a {
       color: #fff;
@@ -92,24 +92,24 @@ const RightNav = (props) => {
 
   return (
     <Ul open={open}>
-      <li className="menu-item">
+      <li className="menu-item" onClick={() => setOpen(!open)}>
         <AnchorLink to="/#about" title="Our team">
           <span>About Us</span>
         </AnchorLink>
       </li>
-      <li className="menu-item">
+      <li className="menu-item" onClick={() => setOpen(!open)}>
         <AnchorLink to="/#projects" title="Our projects">
           <span>Projects</span>
         </AnchorLink>
       </li>
 
-      <li className="menu-item">
+      <li className="menu-item" onClick={() => setOpen(!open)}>
         <AnchorLink to="/#contact" title="Contact">
           <span>Contact</span>
         </AnchorLink>
       </li>
       <li className="menu-item">
-        <Link to="/devis">Devis</Link>
+        <Link to="/devis">Intake</Link>
       </li>
 
       <li>

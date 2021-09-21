@@ -1,10 +1,14 @@
 import React from "react";
+import "../styles/About.css";
 
 const About = () => {
   return (
-    <div id="about">
+    <div id="about" className="content about">
       <h2>About Us</h2>
-      <p>
+      <hr className="title-underline" />
+      <h3> Graphic & Web Design</h3>
+
+      <p className="centered-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fringilla
         venenatis sem, non eleifend ex tincidunt a. Phasellus blandit, leo id
         finibus congue, orci felis elementum diam, ac venenatis mauris mi vitae
@@ -20,7 +24,7 @@ const About = () => {
         inceptos himenaeos.
       </p>
 
-      <p>
+      <p className="centered-text">
         Praesent a bibendum nisi. Aliquam erat volutpat. Sed in convallis quam.
         Nunc ultricies ipsum odio, vitae condimentum ex ullamcorper eu. Quisque
         tincidunt, ex eu elementum iaculis, augue odio lacinia nisi, in
@@ -29,7 +33,7 @@ const About = () => {
         vel arcu sed sem aliquet auctor.
       </p>
 
-      <p>
+      <p className="centered-text">
         Etiam rhoncus facilisis lorem, id auctor sapien porttitor ut. Duis porta
         commodo tempor. Cras dignissim nisl eget lorem pretium euismod.
         Curabitur blandit id arcu ut viverra. Mauris malesuada risus blandit
@@ -38,27 +42,6 @@ const About = () => {
         imperdiet auctor. Donec lacinia nec nibh et semper. Nunc ornare congue
         nisi ac pulvinar. Ut luctus nisi dolor, et malesuada magna mattis eget.
         Suspendisse interdum tellus maximus aliquam facilisis.
-      </p>
-
-      <p>
-        Donec auctor velit justo, non vestibulum ante vulputate eu. Vivamus
-        auctor velit nec posuere tincidunt. Vestibulum tincidunt eget tellus ut
-        sodales. Duis efficitur ipsum mauris, in condimentum risus ornare eget.
-        Nunc turpis ex, ornare ac lorem eu, posuere dignissim turpis. Etiam
-        ornare consequat quam in placerat. Aenean auctor ultricies magna, tempor
-        cursus velit tincidunt id. Donec vestibulum felis ac risus feugiat
-        fringilla.
-      </p>
-
-      <p>
-        Praesent sollicitudin ipsum in leo laoreet congue. Aliquam tortor nisl,
-        porta eu viverra ut, porta at sapien. Aliquam ornare nisl at lectus
-        porta egestas. Etiam at metus vel nunc finibus semper aliquam vitae
-        nisl. Morbi nec gravida mauris, ut fermentum eros. Fusce varius dictum
-        scelerisque. Proin vel commodo odio. Vestibulum tempor egestas porta.
-        Orci varius natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Sed in lorem ac felis rhoncus congue. Aenean non varius
-        quam, eget venenatis sapien.
       </p>
     </div>
   );

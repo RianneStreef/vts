@@ -1,20 +1,12 @@
 .contact-total {
   display: flex;
-}
-
-.contact-total > *{
-  width: 50%;
-}
-
-.contact-right {
-  display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  text-align: center;
-  padding: 50px;
+  justify-content: center;
 }
 
-.contact-left {
+.contact-form {
+  width: 80%;
 }
 
 .input, textarea {
