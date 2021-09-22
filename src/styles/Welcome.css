@@ -12,7 +12,7 @@
 
 .welcome-contact-icon {
   color: #fff;
-  font-size: 50px;
+  font-size: 50px !important;
   margin: 15px;
 }
 
