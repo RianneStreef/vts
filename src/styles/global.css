@@ -8,18 +8,6 @@
   --color-dark: #494949;
 }
 
-.welcome {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-image: url("../images/home-background.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 h1, h2 {
   font-family: "P22 Typewriter Regular";
   text-align: center;

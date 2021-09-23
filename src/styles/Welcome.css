@@ -1,9 +1,26 @@
 .welcome {
+  
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background-image: url("../images/home-background.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  background-position: top center;
+  background-size: 100vw auto;
 }
+
+@media (min-width: 768px) {
+  .welcome {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+
 
 .welcome-logo {
   width: 80%;
