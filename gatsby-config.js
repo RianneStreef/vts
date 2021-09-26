@@ -11,7 +11,12 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-styled-components",
     `gatsby-plugin-fontawesome-css`,
-
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "src/images/icon.png",
+      },
+    },
     {
       resolve: `gatsby-plugin-layout`,
       options: {
