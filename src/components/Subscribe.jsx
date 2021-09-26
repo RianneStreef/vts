@@ -1,7 +1,14 @@
 import addToMailchimp from "gatsby-plugin-mailchimp";
 import React, { useState } from "react";
+import { content } from "../content/languages";
 
-function MailChimp() {
+function MailChimp(props) {
+  let { language, languageToUse } = props;
+
+  language === "english"
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
+
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
 

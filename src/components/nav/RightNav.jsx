@@ -94,23 +94,23 @@ const RightNav = (props) => {
     <Ul open={open}>
       <li className="menu-item" onClick={() => setOpen(!open)}>
         <AnchorLink to="/#about" title="Our team">
-          <span>About Us</span>
+          <span>{languageToUse.about}</span>
         </AnchorLink>
       </li>
       <li className="menu-item" onClick={() => setOpen(!open)}>
         <AnchorLink to="/#projects" title="Our projects">
-          <span>Projects</span>
+          <span>{languageToUse.projects}</span>
         </AnchorLink>
       </li>
 
       <li className="menu-item" onClick={() => setOpen(!open)}>
         <AnchorLink to="/#contact" title="Contact">
-          <span>Contact</span>
+          <span>{languageToUse.contact}</span>
         </AnchorLink>
       </li>
-      <li className="menu-item">
-        <Link to="/devis">Intake</Link>
-      </li>
+      {/* <li className="menu-item">
+        <Link to="/intake">Intake</Link>
+      </li> */}
 
       <li>
         {languageToUse.language === "english" ? (

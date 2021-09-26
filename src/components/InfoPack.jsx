@@ -1,12 +1,19 @@
 import React from "react";
+import { content } from "../content/languages";
+
 import "../styles/InfoPack.css";
 
-function InfoPack() {
+function InfoPack(props) {
+  let { language, languageToUse } = props;
+
+  language === "english"
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
   return (
     <>
       <form className="info-form" name="info" method="post" data-netlify="true">
         <div>
-          <p>Receive a commitment free information package</p>
+          <p>{languageToUse.infoPack}</p>
         </div>
         <input type="hidden" name="form-name" value="contact" />
 
@@ -27,7 +34,7 @@ function InfoPack() {
             type="submit"
             value="Submit message"
           >
-            Request
+            {languageToUse.request}
           </button>
         </div>
       </form>

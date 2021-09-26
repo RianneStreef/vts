@@ -19,8 +19,8 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const Layout = ({ children }) => {
-  let [language, setLanguage] = useState("english");
-  let languageToUse = "english";
+  let [language, setLanguage] = useState("french");
+  let languageToUse = "french";
 
   const childrenWithProps = React.Children.map(children, (child) =>
     React.cloneElement(child, {

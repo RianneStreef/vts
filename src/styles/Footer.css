@@ -45,6 +45,15 @@
   text-decoration: none;
 }
 
+.location {
+  display: flex;
+  align-items: center;
+}
+
 .location-icon {
   margin-right: 10px;;
+}
+
+.set-language-footer {
+  margin: 20px;
 }

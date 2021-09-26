@@ -7,13 +7,14 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 
 const IndexPage = (props) => {
-  let { language } = props;
+  let { language, languageToUse } = props;
 
-  console.log("index page language " + language);
   return (
     <div>
       <Welcome />
-      <About /> <Projects /> <Contact />
+      <About language={language} languageToUse={languageToUse} />
+      <Projects language={language} languageToUse={languageToUse} />
+      <Contact language={language} languageToUse={languageToUse} />
     </div>
   );
 };

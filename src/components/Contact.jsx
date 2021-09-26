@@ -1,14 +1,21 @@
 import React from "react";
+import { content } from "../content/languages";
 
 import "../styles/Contact.css";
 
-const Contact = () => {
+const Contact = (props) => {
+  let { language, languageToUse } = props;
+
+  language === "english"
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
+
   return (
-    <div className="contact content">
-      <h2>Contact</h2>
+    <div id="contact" className="contact content">
+      <h2>{languageToUse.contact}</h2>
       <hr className="title-underline" />
 
-      <h3>Let's Talk!</h3>
+      <h3>{languageToUse.contactUnderTitle}</h3>
       <div className="contact-total">
         <form
           className="contact-form"
@@ -18,7 +25,7 @@ const Contact = () => {
         >
           <input type="hidden" name="form-name" value="contact" />
           <p className="form-items">
-            <label htmlFor="name">Name:</label> <br />
+            <label htmlFor="name">{languageToUse.name}:</label> <br />
             <input
               className="input"
               type="text"
@@ -28,7 +35,7 @@ const Contact = () => {
             />
           </p>
           <p className="form-items">
-            <label htmlFor="email">Email:</label> <br />
+            <label htmlFor="email">{languageToUse.email}:</label> <br />
             <input
               className="input"
               type="email"
@@ -38,7 +45,7 @@ const Contact = () => {
             />
           </p>
           <p className="form-items">
-            <label htmlFor="message">Message:</label> <br />
+            <label htmlFor="message">{languageToUse.message}:</label> <br />
             <textarea id="message" name="message" rows="8" required></textarea>
           </p>
           <div className="button-container">
@@ -47,7 +54,7 @@ const Contact = () => {
               type="submit"
               value="Submit message"
             >
-              Send
+              {languageToUse.send}
             </button>
           </div>
         </form>

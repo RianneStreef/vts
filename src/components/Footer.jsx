@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 
 import InfoPack from "../components/InfoPack";
 
@@ -10,9 +11,23 @@ import {
   faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
+import flagEn from "../images/icon-en.png";
+import flagFr from "../images/icon-fr.png";
+
 import "../styles/Footer.css";
 
-const Footer = () => {
+const Footer = (props) => {
+  let { language, setLanguage, languageToUse } = props;
+
+  function handleSetLanguage(language) {
+    console.log(language);
+    setLanguage(language);
+  }
+
+  const Flag = styled.img`
+    width: 30px;
+  `;
+
   return (
     <div className="footer">
       <div>
@@ -35,12 +50,29 @@ const Footer = () => {
         </a>
       </div>
       <div>
-        <InfoPack />
+        <InfoPack language={language} languageToUse={languageToUse} />
       </div>
       <div>
-        <p>
+        <p className="location">
           <FontAwesomeIcon className="location-icon" icon={faMapMarkerAlt} />
-          Val Thorens, France
+          Val Thorens, France{" "}
+          <span className="set-language-footer">
+            {language === "english" ? (
+              <Flag
+                className="language-icon"
+                src={flagFr}
+                onClick={() => handleSetLanguage("french")}
+                alt="Set language to French"
+              />
+            ) : (
+              <Flag
+                className="language-icon"
+                src={flagEn}
+                onClick={() => handleSetLanguage("english")}
+                alt="Set language to English"
+              />
+            )}
+          </span>
         </p>
       </div>
     </div>
