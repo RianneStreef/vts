@@ -26,6 +26,9 @@ const About = () => {
             sociosqu ad litora torquent per conubia nostra, per inceptos
             himenaeos.
           </p>
+          <div className="signature">
+            <p>- Xavier</p>
+          </div>
         </div>
         <div className="padding">
           <h2>&#60;coder&#62;</h2>
@@ -45,6 +48,9 @@ const About = () => {
             congue nisi ac pulvinar. Ut luctus nisi dolor, et malesuada magna
             mattis eget. Suspendisse interdum tellus maximus aliquam facilisis.
           </p>
+          <div className="signature">
+            <p>- Rianne</p>
+          </div>
         </div>
       </div>
     </div>

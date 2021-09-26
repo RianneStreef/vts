@@ -5,7 +5,11 @@
 .our-descriptions {
   display: flex;
   flex-direction: column;
+}
 
+.signature {
+  text-align: right;
+  font-style: italic;
 }
 
 @media (min-width: 768px) {
@@ -13,3 +17,4 @@
     flex-direction: row;
   }
 }
+

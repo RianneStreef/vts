@@ -7,14 +7,11 @@
   padding: 10px 0;
   background-position: top center;
   background-size: 100vw auto;
-  -webkit-background-attachment: fixed;
-  -moz-background-attahcment: fixed;
-  -o-background-attachment: fixed;
+
 }
 
 @media (min-width: 768px) {
   .projects {
-    height: 100vh;
     background-position: center;
     background-size: cover;
   }
