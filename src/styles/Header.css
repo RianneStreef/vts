@@ -9,7 +9,15 @@
   width: 100%;
 }
 
+.hidden-mobile{
+  display: none;
+}
 
+@media (min-width: 768px) {
+  .hidden-mobile {
+    display: inline;
+  }
+}
 
 .header-logo {
   width: 30%;
