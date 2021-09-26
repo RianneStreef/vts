@@ -1,13 +1,19 @@
 .projects {
-  background-image: url("../images/background-projects.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 10px 0;
-  background-position: top center;
-  background-size: 100vw auto;
 
+}
+
+@media (min-width: 768px) {
+  .projects {
+    background-image: url("../images/background-projects.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 0;
+    background-position: top center;
+    background-size: 100vw auto;
+    color: #fff;
+  }
 }
 
 @media (min-width: 768px) {
@@ -16,7 +22,9 @@
     background-size: cover;
   }
 }
-
+.workspace {
+  width: 100%;
+}
 
 .project-container {
   display: flex;
