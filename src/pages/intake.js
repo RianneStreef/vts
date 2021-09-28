@@ -1,7 +1,16 @@
-import * as React from "react";
+import React from "react";
+import Layout from "../components/Layout";
+import underConstruction from "../images/under-construction.png";
 
-const Devis = () => {
-  return <div>intake</div>;
+import "../styles/IntakePage.css";
+
+const IntakePage = () => {
+  return (
+    <div className="intake">
+      <img src={underConstruction} className="under-construction" />
+    </div>
+  );
 };
 
-export default Devis;
+IntakePage.Layout = Layout;
+export default IntakePage;
