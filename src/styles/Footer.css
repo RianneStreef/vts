@@ -18,11 +18,15 @@
 }
 
 .footer > * {
-
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 50px;;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 768px) {
@@ -56,4 +60,33 @@
 
 .set-language-footer {
   margin: 20px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-footer {
+  width: 50%;
+}
+
+.select-language-menu {
+  background-color: var(--color-highlight);
+  position: fixed;
+  z-index: 1;
+  top: 75vh;
+}
+
+.select-language-menu p {
+  padding: 0 10px;
+}
+
+.language-option {
+  border-bottom: 1px solid #fff;
+  padding: 5px;
+}
+
+.language-icon-footer {
+  margin-right: 20px;
 }

@@ -20,6 +20,10 @@ h3, h4 {
   margin-bottom: 40px;
 }
 
+h5 {
+  padding: 20px;
+}
+
 p {
   font-size: 0.6em;
   line-height: 25px;

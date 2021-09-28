@@ -11,7 +11,7 @@ const IndexPage = (props) => {
 
   return (
     <div>
-      <Welcome />
+      <Welcome language={language} />
       <About language={language} languageToUse={languageToUse} />
       <Projects language={language} languageToUse={languageToUse} />
       <Contact language={language} languageToUse={languageToUse} />

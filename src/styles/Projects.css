@@ -1,5 +1,5 @@
 .projects {
-
+  padding:  20px;
 }
 
 @media (min-width: 768px) {
@@ -9,19 +9,12 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 10px 0;
     background-position: top center;
-    background-size: 100vw auto;
-    color: #fff;
-  }
-}
-
-@media (min-width: 768px) {
-  .projects {
-    background-position: center;
     background-size: cover;
   }
 }
+
+
 .workspace {
   width: 100%;
 }
@@ -35,4 +28,100 @@
 .project-card {
   display: flex;
   flex-direction: column;
+  margin: 20px;
+  color: #000;
+  height: 500px;
+}
+
+.project-card-heading {
+}
+
+.seb-gourmet {
+  background-image: url("../images/backgroundSebGourmet.jpeg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.claire-turner {
+  background-image: url("../images/backgroundClaireTurner.jpeg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.core-move {
+  background-image: url("../images/backgroundCoreMove.jpeg");
+  background-size: contain;
+  background-position: center;
+
+  background-repeat: no-repeat;
+}
+
+.client-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.client-icon{
+  width: 4%;
+  margin: 15px;
+}
+
+.alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after {
+  color: #000;
+  font-size: 50px;
+}
+
+@media (min-width: 768px) {
+  .alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after {
+    color: #fff;
+    font-size: 50px;
+  }
+}
+
+.flip-card {
+  background-color: transparent;
+  height: 550px;
+  perspective: 1000px;
+  margin: 20px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front { 
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: var(--color-highlight);
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.website-img {
+  width:80%;
 }

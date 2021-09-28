@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Navbar from "./nav/Navbar";
 
 import { content } from "../content/languages";
-import logo from "../images/logo.png";
+import logo from "../images/logo-no-tag.png";
 
 import "../styles/Header.css";
 

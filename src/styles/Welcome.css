@@ -19,19 +19,30 @@
   }
 }
 
-
-
 .welcome-logo {
   width: 80%;
 }
 
-
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .welcome-contact-icon {
   color: #fff;
   font-size: 25px !important;
   margin: 15px;
 
+}
+
+.intake-link {
+  width: 80px;
+}
+
+.quote-icon {
+  width: 60%;
+  margin: 10px;
 }
 
 
@@ -41,3 +52,27 @@
   }
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
