@@ -79,7 +79,7 @@ const Footer = (props) => {
                 src={flagFr}
                 alt="Set language to French"
               />
-              Français &or;
+              Français
             </p>
           ) : (
             <p onClick={() => setIsShown(true)} className="language-option">
@@ -88,7 +88,7 @@ const Footer = (props) => {
                 src={flagEn}
                 alt="Set language to English"
               />
-              English &or;
+              English
             </p>
           )}
 

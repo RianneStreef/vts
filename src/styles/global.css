@@ -8,6 +8,10 @@
   --color-dark: #494949;
 }
 
+.main {
+  background-color: rgb(251, 251, 251);
+}
+
 h1, h2 {
   font-family: "P22 Typewriter Regular";
   text-align: center;

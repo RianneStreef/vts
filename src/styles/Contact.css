@@ -1,3 +1,10 @@
+.contact {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 50px 0;
+  background-color: #fff;
+
+}
+
 .contact-total {
   display: flex;
   flex-direction: column;

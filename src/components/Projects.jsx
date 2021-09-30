@@ -8,9 +8,9 @@ import "react-alice-carousel/lib/alice-carousel.css";
 
 import workspace from "../images/background-projects.jpeg";
 
-import SebGourmetBackground from "../images/backgroundSebGourmet.jpeg";
-import ClaireTurnerBackground from "../images/backgroundClaireTurner.jpeg";
-import CoreMoveBackground from "../images/backgroundCoreMove.jpeg";
+import SebGourmetBackground from "../images/backgroundSebGourmet.png";
+import ClaireTurnerBackground from "../images/backgroundClaireTurner.png";
+import CoreMoveBackground from "../images/backgroundCoreMove.png";
 
 import SebGourmet from "../images/icons/seb-gourmet-traiteur-logo.png";
 import ClaireTurner from "../images/icons/claire-turner-design-logo.png";

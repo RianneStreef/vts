@@ -30,27 +30,31 @@
 }
 
 .welcome-contact-icon {
-  color: #fff;
-  font-size: 25px !important;
   margin: 15px;
-
-}
-
-.intake-link {
-  width: 80px;
-}
-
-.quote-icon {
   width: 60%;
-  margin: 10px;
 }
-
 
 @media (min-width: 768px) {
   .welcome-contact-icon {
-    font-size: 50px !important;
+    width: 70%;
   }
 }
+
+.contact-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+}
+
+@media (min-width: 768px) {
+.contact-links a {
+  width: 100px;
+}
+}
+
+
+
 
 .tooltip {
   position: relative;

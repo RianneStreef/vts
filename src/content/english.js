@@ -14,11 +14,12 @@ export const english = {
   projects: "Projects",
   projectsUnderTitle: "They trusted us!",
 
-  SebGourmetDescription: "A catering company located in the French Alps",
-  ClaireTurnerDesignDescription:
-    "Children illustrations made in Tallloires, France",
-  CoreMoveDescription:
-    "A physical therapist located in The Hague, The Netherlands",
+  sebGourmetDescription:
+    "A catering company located in the French Alps - This website is used to showcase products offered and to promote certain services. It includes a live stream of the company's Instagram account, and serveral ways to get in contact. ",
+  claireTurnerDesignDescription:
+    "Children illustrations made in Tallloires, France - This website is used to showcase the artist's products and give some information about her. There is a contact form, and a live feed of her Instagram account.",
+  coreMoveDescription:
+    "A physical therapist located in The Hague, The Netherlands - This website is used to inform potential clients about services offered. It offers multiple ways to get in contact.",
 
   contact: "Contact",
   contactUnderTitle: "Let's Talk!",

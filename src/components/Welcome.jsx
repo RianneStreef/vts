@@ -3,10 +3,10 @@ import { Link } from "gatsby";
 import "../styles/Welcome.css";
 import LogoWelcomeFR from "../images/logo-vertical-white.png";
 import LogoWelcomeEN from "../images/logo-tagline-white-EN.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 import quoteIcon from "../images/icons/devis-icon.png";
+import envelopeIcon from "../images/icons/contact-icon.png";
+import instagramIcon from "../images/icons/instagram-icon.png";
 
 const Welcome = (props) => {
   let { language } = props;
@@ -36,19 +36,25 @@ const Welcome = (props) => {
             alt="Our Instagram account"
             target="blank"
           >
-            <FontAwesomeIcon
+            <img
+              src={instagramIcon}
+              alt="Check out our Instagram"
               className="welcome-contact-icon"
-              icon={faInstagram}
-            />
+            />{" "}
           </a>
           <a href="mailto:contact@vts-webdesign.com" alt="Email us">
-            <FontAwesomeIcon
+            <img
+              src={envelopeIcon}
+              alt="Send an email"
               className="welcome-contact-icon"
-              icon={faEnvelope}
             />{" "}
           </a>
           <Link to="/intake" className="intake-link tooltip">
-            <img src={quoteIcon} alt="Get a quote" className="quote-icon" />{" "}
+            <img
+              src={quoteIcon}
+              alt="Get a quote"
+              className="welcome-contact-icon"
+            />{" "}
             {language === "french" ? (
               <span className="tooltiptext">Faire un devis</span>
             ) : (

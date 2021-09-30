@@ -76,6 +76,9 @@
   position: fixed;
   z-index: 1;
   top: 75vh;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
 }
 
 .select-language-menu p {

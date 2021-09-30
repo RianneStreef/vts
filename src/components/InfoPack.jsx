@@ -13,7 +13,7 @@ function InfoPack(props) {
     <>
       <form className="info-form" name="info" method="post" data-netlify="true">
         <div>
-          <p>{languageToUse.infoPack}</p>
+          <p className="centered-text">{languageToUse.infoPack}</p>
         </div>
         <input type="hidden" name="form-name" value="contact" />
 

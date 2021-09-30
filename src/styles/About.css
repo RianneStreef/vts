@@ -1,10 +1,14 @@
 .about {
   padding-bottom: 50px;
+
 }
 
 .our-descriptions {
   display: flex;
   flex-direction: column;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color: #fff;
+
 }
 
 .signature  {
@@ -27,6 +31,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 
 .competence-icon{
