@@ -38,6 +38,7 @@ const About = (props) => {
         <div className="padding">
           <h2>{languageToUse.code}</h2>
           <p className="centered-text">{languageToUse.rianne}</p>
+          <p className="centered-text">{languageToUse.rianne2}</p>
           <div className="signature">
             <p>- Rianne</p>
           </div>
