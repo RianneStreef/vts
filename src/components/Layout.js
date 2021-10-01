@@ -39,11 +39,13 @@ const Layout = ({ children }) => {
         languageToUse={languageToUse}
       />
       <section className="main">{childrenWithProps}</section>
+
       <Footer
         language={language}
         setLanguage={setLanguage}
         languageToUse={languageToUse}
       />
+
       <Copyright language={language} languageToUse={languageToUse} />
     </div>
   );

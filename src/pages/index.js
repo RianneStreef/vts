@@ -1,15 +1,14 @@
 import React from "react";
-import styled from "styled-components";
 
 import Layout from "../components/Layout";
 import Welcome from "../components/Welcome";
 import About from "../components/About";
-import Projects from "../components/Projects";
+// import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 
-const Placeholder = styled.div`
-  height: 100px; ;
-`;
+import "../styles/IndexPage.css";
+
+import footerBanner from "../images/footer-banner.jpeg";
 
 const IndexPage = (props) => {
   let { language, languageToUse } = props;
@@ -18,10 +17,14 @@ const IndexPage = (props) => {
     <>
       <div>
         <Welcome language={language} />
-        <Placeholder />
+        <div className="background-placeholder" />
         <About language={language} languageToUse={languageToUse} />
         {/* <Projects language={language} languageToUse={languageToUse} /> */}
+        <div className="background-placeholder" />
         <Contact language={language} languageToUse={languageToUse} />
+        <div className="banner-container">
+          <img className="banner" src={footerBanner} />
+        </div>
       </div>
     </>
   );
