@@ -26,42 +26,44 @@ const About = (props) => {
     : (languageToUse = content.french);
 
   return (
-    <div id="about" className="content about">
-      <div className="our-descriptions ">
-        <div className="padding">
-          <h2>{languageToUse.design}</h2>
+    <div className="about-container">
+      <div id="about" className="content about">
+        <div className="our-descriptions ">
+          <div className="padding">
+            <h2>{languageToUse.design}</h2>
 
-          <p className="centered-text">{languageToUse.xavier}</p>
-          <div className="signature">
-            <p>- Xavier</p>
+            <p className="centered-text">{languageToUse.xavier}</p>
+            <div className="signature">
+              <p>- Xavier</p>
+            </div>
+          </div>
+          <div className="padding">
+            <h2>{languageToUse.code}</h2>
+
+            <p className="centered-text">{languageToUse.rianne}</p>
+            <p className="centered-text">{languageToUse.rianne2}</p>
+            <div className="signature">
+              <p>- Rianne</p>
+            </div>
           </div>
         </div>
-        <div className="padding">
-          <h2>{languageToUse.code}</h2>
-
-          <p className="centered-text">{languageToUse.rianne}</p>
-          <p className="centered-text">{languageToUse.rianne2}</p>
-          <div className="signature">
-            <p>- Rianne</p>
-          </div>
+        <div className="competence-icons">
+          <img src={Windows} alt="Windows" className="competence-icon" />
+          <img src={Adobe} alt="Adobe" className="competence-icon" />
+          <img src={AI} alt="Illustrator" className="competence-icon" />
+          <img src={ID} alt="In Design" className="competence-icon" />
+          <img src={PR} alt="Premier Pro" className="competence-icon" />
+          <img src={PS} alt="Photo Shop" className="competence-icon" />
+          <img src={XD} alt="Experience design" className="competence-icon" />
+          <img src={HTML} alt="HTML 5" className="competence-icon" />
+          <img src={CSS} alt="CSS 3" className="competence-icon" />
+          <img src={JS} alt="JavaScript" className="competence-icon" />
+          <img src={ReactIcon} alt="React" className="competence-icon" />
+          <img src={Gatsby} alt="Gatsby" className="competence-icon" />
+          <img src={Contentful} alt="Contentful" className="competence-icon" />
+          <img src={Git} alt="GitHub" className="competence-icon" />
+          <img src={Apple} alt="iOS" className="competence-icon" />
         </div>
-      </div>
-      <div className="competence-icons">
-        <img src={Windows} alt="Windows" className="competence-icon" />
-        <img src={Adobe} alt="Adobe" className="competence-icon" />
-        <img src={AI} alt="Illustrator" className="competence-icon" />
-        <img src={ID} alt="In Design" className="competence-icon" />
-        <img src={PR} alt="Premier Pro" className="competence-icon" />
-        <img src={PS} alt="Photo Shop" className="competence-icon" />
-        <img src={XD} alt="Experience design" className="competence-icon" />
-        <img src={HTML} alt="HTML 5" className="competence-icon" />
-        <img src={CSS} alt="CSS 3" className="competence-icon" />
-        <img src={JS} alt="JavaScript" className="competence-icon" />
-        <img src={ReactIcon} alt="React" className="competence-icon" />
-        <img src={Gatsby} alt="Gatsby" className="competence-icon" />
-        <img src={Contentful} alt="Contentful" className="competence-icon" />
-        <img src={Git} alt="GitHub" className="competence-icon" />
-        <img src={Apple} alt="iOS" className="competence-icon" />
       </div>
     </div>
   );

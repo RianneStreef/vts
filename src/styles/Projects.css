@@ -25,12 +25,6 @@
   flex-wrap: wrap;
 }
 
-.project-card {
-  display: flex;
-  flex-direction: column;
-  color: #000;
-  width: 25%;
-}
 
 
 
@@ -81,7 +75,7 @@
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+  border: 1px solid black;
 }
 
 .flip-card:hover .flip-card-inner {
@@ -101,10 +95,7 @@
 }
 
 .flip-card-front { 
-  color: #fff;
-  background: linear-gradient(
-    264.99deg
-    ,rgba(52, 52, 52, 0.9),rgba(190, 191, 191, 0.8) 95.58%); 
+  color: #000;
 }
 
 .flip-card-back {

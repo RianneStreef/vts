@@ -26,7 +26,7 @@ const Projects = (props) => {
         <div class="flip-card project-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <h2>Claire Turner Design</h2>
+              <h3>Claire Turner Design</h3>
               <p>{languageToUse.claireTurnerDesignDescription}</p>{" "}
             </div>
             <div class="flip-card-back claire-turner"></div>
@@ -35,7 +35,7 @@ const Projects = (props) => {
         <div class="flip-card project-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <h2>Seb Gourmet Traiteur</h2>
+              <h3>Seb Gourmet Traiteur</h3>
               <p>{languageToUse.sebGourmetDescription}</p>
             </div>
             <div class="flip-card-back seb-gourmet"></div>
@@ -44,7 +44,7 @@ const Projects = (props) => {
         <div class="flip-card project-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <h2>Core Move</h2>
+              <h3>Core Move</h3>
               <p>{languageToUse.coreMoveDescription}</p>
             </div>
             <div class="flip-card-back core-move"></div>
@@ -53,10 +53,13 @@ const Projects = (props) => {
         <div class="flip-card project-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <h2>Le Caribou</h2>
+              <h3>Le Caribou</h3>
+              <p>{languageToUse.caribouDescription}</p>
+            </div>
+            <div class="flip-card-back">
+              {" "}
               <p>Coming Soon! </p>
             </div>
-            <div class="flip-card-back"></div>
           </div>
         </div>
       </div>
