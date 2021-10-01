@@ -1,6 +1,13 @@
 
 .row {
   display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+.row {
+  flex-direction: column;
+}
 }
 
 .column {
@@ -8,7 +15,7 @@
 }
 
 .c1 {
-  border-right: 2px dotted black;
+  border-right: 2px dotted var(--color-special);
 }
 
 @media screen and (max-width: 768px) {
@@ -22,12 +29,26 @@
 }
 
 .project-card {
-  border-top: 2px dotted black;
+  border-top: 2px dotted var(--color-special);
   height: 40vw;
 }
 
+@media (max-width: 768px) {
+  .project-card-placeholder {
+   display: none;
+  }
+  .project-card {
+    border-top: 2px dotted var(--color-special);
+    height: 80vw;
+  }
+  .c2 {
+    border-left: 2px dotted var(--color-special);
+  }
+}
+
+
 .bottom-card {
-  border-bottom: 2px dotted black;
+  border-top: 2px dotted var(--color-special);
 }
 
 .project-card-title {

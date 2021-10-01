@@ -55,25 +55,26 @@ button {
   padding: 10px;
   margin: 10px;
   min-width: 100px;
+  background-color: var(--color-special);
   transition: background-color 500ms ease;
 }
 
 button:hover {
-  background-color: var(--color-special);
+  background-color: var(--color-highlight);
   transition: background-color 500ms ease;
 }
 
 .background-special {
   background: linear-gradient(
     264.99deg
-    ,rgba(190, 191, 191, 0.8),rgba(0, 0, 0, 0.9) 95.58%); 
+    ,rgba(69, 69, 69, 0.8),rgba(0, 0, 0, 0.9) 95.58%); 
     padding: 20px 0;
 }
 
 .background-special-revers {
   background: linear-gradient(
     264.99deg
-    ,rgba(0, 0, 0, 0.9),rgba(190, 191, 191, 0.8) 95.58%); 
+    ,rgba(0, 0, 0, 0.9),rgba(69, 69, 69, 0.8) 95.58%); 
     padding: 20px 0;
 }
 

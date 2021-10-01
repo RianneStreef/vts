@@ -4,9 +4,9 @@ import "../styles/Welcome.css";
 import LogoWelcomeFR from "../images/logo-vertical-white.png";
 import LogoWelcomeEN from "../images/logo-tagline-white-EN.png";
 
-import quoteIcon from "../images/icons/devis-icon.png";
-import envelopeIcon from "../images/icons/contact-icon.png";
-import instagramIcon from "../images/icons/instagram-icon.png";
+import quoteIcon from "../images/icons/devis-icon-blue.png";
+import envelopeIcon from "../images/icons/contact-icon-blue.png";
+import instagramIcon from "../images/icons/instagram-icon-blue.png";
 
 const Welcome = (props) => {
   let { language } = props;

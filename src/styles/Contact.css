@@ -1,18 +1,39 @@
+.contact-total {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .contact-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 
 .contact {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   padding: 50px 0;
   background-color: #fff;
   margin-top: -70px;
-  margin-left: 0;
 }
 
-.contact-total {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.devis {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 50px 0;
+  background-color: #fff;
+  margin-bottom: -70px;
 }
+
+@media (min-width: 768px) {
+  .contact {
+    width: 30%
+  }
+  .devis {
+    width: 55%
+  }
+}
+
 
 .contact-form {
   width: 80%;

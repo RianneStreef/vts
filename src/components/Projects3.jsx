@@ -38,7 +38,7 @@ const Projects3 = (props) => {
           <p>{languageToUse.CoreMoveDescription}</p>
         </div>
       </div>
-      <div className="column">
+      <div className="column c2">
         <div className="project-card">
           <div className="project-card-title">
             <img
