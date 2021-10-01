@@ -3,18 +3,19 @@ import { createGlobalStyle } from "styled-components";
 
 import Header from "./Header.jsx";
 import Footer from "./Footer";
+import Copyright from "./Copyright";
 
 import "../styles/Layout.css";
 
 const GlobalStyle = createGlobalStyle`
 
   body{
-    line-height: 1.2;
+    line-height: 1.2 !important;
     margin: 0;
     padding: 0;
     color: #000;
-    font-family:"Noto Sans JP";
-    font-size: 1.5rem;
+    font-family:"Noto Sans JP" !important;
+    font-size: 1.5rem !important;
   }
 `;
 
@@ -43,6 +44,7 @@ const Layout = ({ children }) => {
         setLanguage={setLanguage}
         languageToUse={languageToUse}
       />
+      <Copyright language={language} languageToUse={languageToUse} />
     </div>
   );
 };

@@ -29,4 +29,7 @@ export const french = {
 
   infoPack: "Recevez une pack d'information sans engagement",
   request: "Demande",
+
+  copyright: "VTS Web Design - Tous droits réservés.",
+  mentionsLegal: "Mentions Légales",
 };

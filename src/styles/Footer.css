@@ -2,10 +2,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #000;
+  background-color: rgb(72, 72, 72);
   color: #fff;
   align-items: center;
   padding: 20px;
+  margin-top: 10px
 }
 
 @media (min-width: 768px) {
@@ -73,6 +74,7 @@
 
 .select-language-menu {
   background-color: var(--color-highlight);
+  color: #000;
   position: fixed;
   z-index: 1;
   top: 75vh;

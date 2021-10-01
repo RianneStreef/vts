@@ -32,4 +32,8 @@ export const english = {
 
   infoPack: "Receive a commitment free information package",
   request: "Request",
+
+  copyright: "VTS Web Design - All rights reserved.",
+  mentionsLegal: "Legal mentions",
+  copyright3: "Created by ",
 };

@@ -15,18 +15,18 @@ const Welcome = (props) => {
   console.log(language);
 
   return (
-    <div className="welcome">
+    <div className="welcome ">
       {language === "french" ? (
         <img
           src={LogoWelcomeFR}
           alt="Logo VTS web design"
-          className="welcome-logo"
+          className="welcome-logo w3-animate-bottom"
         />
       ) : (
         <img
           src={LogoWelcomeEN}
           alt="Logo VTS web design"
-          className="welcome-logo"
+          className="welcome-logo w3-animate-bottom"
         />
       )}
       <div>
@@ -39,21 +39,21 @@ const Welcome = (props) => {
             <img
               src={instagramIcon}
               alt="Check out our Instagram"
-              className="welcome-contact-icon"
+              className="welcome-contact-icon w3-animate-bottom"
             />{" "}
           </a>
           <a href="mailto:contact@vts-webdesign.com" alt="Email us">
             <img
               src={envelopeIcon}
               alt="Send an email"
-              className="welcome-contact-icon"
+              className="welcome-contact-icon w3-animate-bottom"
             />{" "}
           </a>
           <Link to="/intake" className="intake-link tooltip">
             <img
               src={quoteIcon}
               alt="Get a quote"
-              className="welcome-contact-icon"
+              className="welcome-contact-icon w3-animate-bottom"
             />{" "}
             {language === "french" ? (
               <span className="tooltiptext">Faire un devis</span>

@@ -31,7 +31,7 @@ const Header = (props) => {
     : (languageToUse = content.french);
   return (
     <div className="header" id="header">
-      <img src={logo} alt="VTS logo" className="header-logo hidden-mobile" />
+      <img src={logo} alt="VTS logo" className="header-logo hidden-mobile " />
       <Navbar
         language={language}
         setLanguage={setLanguage}

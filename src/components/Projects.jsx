@@ -3,11 +3,6 @@ import { content } from "../content/languages";
 
 import "../styles/Projects.css";
 
-import AliceCarousel from "react-alice-carousel";
-import "react-alice-carousel/lib/alice-carousel.css";
-
-import workspace from "../images/background-projects.jpeg";
-
 import SebGourmetBackground from "../images/backgroundSebGourmet.png";
 import ClaireTurnerBackground from "../images/backgroundClaireTurner.png";
 import CoreMoveBackground from "../images/backgroundCoreMove.png";
@@ -23,61 +18,56 @@ const Projects = (props) => {
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
 
-  const handleDragStart = (e) => e.preventDefault();
-  const items = [
-    <div class="flip-card" onDragStart={handleDragStart}>
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img src={SebGourmetBackground} className="website-img" />
-        </div>
-        <div class="flip-card-back">
-          <h3>Seb Gourmet Traiteur</h3>
-          <p>{languageToUse.SebGourmetDescription}</p>
-        </div>
-      </div>
-    </div>,
-
-    <div class="flip-card" onDragStart={handleDragStart}>
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img src={ClaireTurnerBackground} className="website-img" />
-        </div>
-        <div class="flip-card-back">
-          <h3>Claire Turner Design</h3>
-          <p>{languageToUse.ClaireTurnerDesignDescription}</p>
-        </div>
-      </div>
-    </div>,
-
-    <div class="flip-card" onDragStart={handleDragStart}>
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img src={CoreMoveBackground} className="website-img" />
-        </div>
-        <div class="flip-card-back">
-          <h3>Core Move</h3>
-          <p>{languageToUse.CoreMoveDescription}</p>
-        </div>
-      </div>
-    </div>,
-  ];
-
   return (
     <>
       <div id="projects" className="projects">
-        <img
-          src={workspace}
-          alt="workspace"
-          className="workspace hidden-desktop"
-        />
-        <div className="content">
-          <AliceCarousel
-            mouseTracking
-            items={items}
-            infinite={true}
-            disableDotsControls={true}
-          />
+        <div class="flip-card project-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h2>Claire Turner</h2>
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1>
+              <p>Architect & Engineer</p>
+            </div>
+          </div>
         </div>
+        <div className="claire-turner project-card">
+          <div className="project-description">
+            <h2>Claire Turner Design</h2>
+            <p>{languageToUse.claireTurnerDesignDescription}</p>
+          </div>
+        </div>
+        <div className="seb-gourmet project-card">
+          <div className="project-description">
+            <h2>Seb Gourmet Traiteur</h2>
+            <p>{languageToUse.sebGourmetDescription}</p>
+          </div>
+        </div>
+        <div className="core-move project-card">
+          <div className="project-description">
+            <h2>Core Move</h2>
+            <p>{languageToUse.coreMoveDescription}</p>
+          </div>
+        </div>{" "}
+        <div className="claire-turner project-card">
+          <div className="project-description">
+            <h2>Claire Turner Design</h2>
+            <p>{languageToUse.claireTurnerDesignDescription}</p>
+          </div>
+        </div>
+        <div className="seb-gourmet project-card">
+          <div className="project-description">
+            <h2>Seb Gourmet Traiteur</h2>
+            <p>{languageToUse.sebGourmetDescription}</p>
+          </div>
+        </div>
+        <div className="core-move project-card">
+          <div className="project-description">
+            <h2>Core Move</h2>
+            <p>{languageToUse.coreMoveDescription}</p>
+          </div>
+        </div>{" "}
       </div>
       <div className="client-icons">
         <img

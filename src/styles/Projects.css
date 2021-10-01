@@ -1,18 +1,18 @@
-.projects {
-  padding:  20px;
-}
 
-@media (min-width: 768px) {
+
+/* @media (min-width: 768px) { */
   .projects {
-    background-image: url("../images/background-projects.jpeg");
-    background-size: cover;
+    /* background-image: url("../images/background-projects.jpeg");
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
-  }
-}
+    background-size: cover; */
+ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+/* } */
 
 
 .workspace {
@@ -28,9 +28,8 @@
 .project-card {
   display: flex;
   flex-direction: column;
-  margin: 20px;
   color: #000;
-  height: 500px;
+  width: 25%;
 }
 
 
@@ -61,6 +60,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+  margin-bottom: 80px;;
 }
 
 .client-icon{

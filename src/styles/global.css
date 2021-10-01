@@ -6,14 +6,19 @@
 :root {
   --color-highlight: rgb(214, 212, 212);
   --color-dark: #494949;
+  --color-special: #0f62ff;
 }
 
-.main {
-  background-color: rgb(251, 251, 251);
+body{
+  cursor: url("../images/pointer.png")
+  /* , url("custom.cur") */
+  , default;  background-color: rgb(251, 251, 251);
+
 }
+
 
 h1, h2 {
-  font-family: "P22 Typewriter Regular";
+  font-family: "P22 Typewriter Regular" ;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -44,13 +49,18 @@ p {
 }
 
 button {
-  font-family: "P22 Typewriter Regular";
+  font-family: "P22 Typewriter Regular" ;
   border: none;
   padding: 10px;
   margin: 10px;
   min-width: 100px;
+  transition: background-color 500ms ease;
 }
 
+button:hover {
+  background-color: var(--color-special);
+  transition: background-color 500ms ease;
+}
 
 
 .content {
@@ -63,12 +73,6 @@ button {
     flex-grow: 1;
     margin: 100px 100px 50px 100px;
   }
-}
-
-.title-underline {
-  width: 100px;
-  margin-top: 0;
-  border: 1px solid var(--color-highlight);
 }
 
 .title-underline-white {
@@ -106,5 +110,38 @@ button {
 @media (min-width: 768px) {
   .hidden-desktop {
     display: none;
+  }
+}
+
+.w3-animate-bottom {
+  position: relative;
+  animation: animatebottom 0.4s;
+}
+.w3-animate-bottom {
+  -webkit-animation: animatebottom 0.8s;
+  animation: animatebottom 0.8s;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+@keyframes animatebottom {
+  0% {
+    bottom: -300px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
   }
 }

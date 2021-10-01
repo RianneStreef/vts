@@ -48,7 +48,7 @@
   flex-direction: column;
   justify-content: center;
   background-color: white;
-  opacity: 0;
+  opacity: 0.95;
   height: 100%;
   width: 100%;
   transition: opacity 1000ms ease;
@@ -56,7 +56,7 @@
 }
 
 .project-description:hover {
-  opacity: 0.95;
+  opacity: 0;
   transition: opacity 1000ms ease;
 }
 
@@ -102,13 +102,22 @@
 .alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after {
   color: #000;
   font-size: 50px;
+  transition: color 500ms ease;
+
 }
 
 @media (min-width: 768px) {
   .alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after {
     color: #fff;
     font-size: 50px;
+    transition: color 500ms ease;
+
   }
 }
 
+.alice-carousel__prev-btn:hover [data-area]::after, .alice-carousel__next-btn:hover [data-area]::after {
+  color: var(--color-special);
+  transition: color 500ms ease;
+
+}
 
