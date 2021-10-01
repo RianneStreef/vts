@@ -8,7 +8,7 @@ import Contact from "../components/Contact";
 
 import "../styles/IndexPage.css";
 
-import footerBanner from "../images/footer-banner.jpeg";
+// import footerBanner from "../images/footer-banner.jpeg";
 
 const IndexPage = (props) => {
   let { language, languageToUse } = props;
@@ -22,9 +22,9 @@ const IndexPage = (props) => {
         {/* <Projects language={language} languageToUse={languageToUse} /> */}
         <div className="background-placeholder" />
         <Contact language={language} languageToUse={languageToUse} />
-        <div className="banner-container">
+        {/* <div className="banner-container">
           <img className="banner" src={footerBanner} />
-        </div>
+        </div> */}
       </div>
     </>
   );
