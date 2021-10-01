@@ -15,7 +15,7 @@ const Header = (props) => {
       if (typeof window !== "undefined") {
         header = document.getElementById("header");
         const y = 1 + (window.scrollY || window.pageYOffset);
-        const o = (opacity + y) / 800;
+        const o = (opacity + y) / 600;
         header.style.backgroundColor = `rgb(225, 225, 225, ${o} `;
       }
     });

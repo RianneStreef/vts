@@ -30,12 +30,22 @@ const Projects3 = (props) => {
             <h2>Seb Gourmet Traiteur</h2>
           </div>
           <p>{languageToUse.SebGourmetDescription}</p>
+          <div className="button-container-projects">
+            <a href="https://www.coremove.nl" className="button">
+              Learn more
+            </a>
+          </div>
         </div>
         <div className="project-card bottom-card">
           <div className="project-card-title">
             <h2>Chalet le Caribou</h2>
           </div>
           <p>{languageToUse.CoreMoveDescription}</p>
+          <div className="button-container-projects">
+            <a href="https://www.coremove.nl" className="button">
+              Learn more
+            </a>
+          </div>
         </div>
       </div>
       <div className="column c2">
@@ -49,6 +59,11 @@ const Projects3 = (props) => {
             <h2>Claire Turner</h2>
           </div>
           <p>{languageToUse.ClaireTurnerDesignDescription}</p>
+          <div className="button-container-projects">
+            <a href="https://www.coremove.nl" className="button">
+              Learn more
+            </a>
+          </div>
         </div>
         <div className="project-card bottom-card">
           <div className="project-card-title">
@@ -56,8 +71,10 @@ const Projects3 = (props) => {
             <h2>Core Move</h2>
           </div>
           <p>{languageToUse.CoreMoveDescription}</p>
-          <div className="button-container">
-            <a href="https://www.coremove.nl"> Learn more</a>
+          <div className="button-container-projects">
+            <a href="https://www.coremove.nl" className="button">
+              Learn more
+            </a>
           </div>
         </div>
         <div className="project-card-placeholder" />

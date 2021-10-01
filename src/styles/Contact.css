@@ -16,6 +16,13 @@
   padding: 50px 0;
   background-color: #fff;
   margin-top: -70px;
+  margin-left: 0;
+  width: 70vw;
+}
+
+.devis-container {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .devis {
@@ -23,14 +30,18 @@
   padding: 50px 0;
   background-color: #fff;
   margin-bottom: -70px;
+  margin-right: 0;
+  margin-top: 20px;
+  width: 90vw;
 }
 
 @media (min-width: 768px) {
   .contact {
-    width: 30%
+    width: 40vw;
   }
   .devis {
-    width: 55%
+    width: 55vw;
+    margin-top: 0;
   }
 }
 

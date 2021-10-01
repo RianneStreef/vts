@@ -31,6 +31,9 @@
 .project-card {
   border-top: 2px dotted var(--color-special);
   height: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media (max-width: 768px) {
@@ -48,7 +51,7 @@
 
 
 .bottom-card {
-  border-top: 2px dotted var(--color-special);
+  border-bottom: 2px dotted var(--color-special);
 }
 
 .project-card-title {
@@ -58,4 +61,11 @@
 .client-logo {
   width: 15%;
   margin: 20px;
+}
+
+.button-container-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 60px;
 }

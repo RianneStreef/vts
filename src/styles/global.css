@@ -49,7 +49,7 @@ p {
   color: #000;
 }
 
-button {
+button, .button {
   font-family: "P22 Typewriter Regular" ;
   border: none;
   padding: 10px;
@@ -57,9 +57,10 @@ button {
   min-width: 100px;
   background-color: var(--color-special);
   transition: background-color 500ms ease;
+  font-size: 15px;
 }
 
-button:hover {
+button:hover, .button:hover{
   background-color: var(--color-highlight);
   transition: background-color 500ms ease;
 }
