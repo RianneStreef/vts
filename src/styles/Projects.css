@@ -44,6 +44,7 @@
 .claire-turner {
   background-image: url("../images/backgroundClaireTurner.png");
   background-size: contain;
+  background-color: #fff;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -51,7 +52,7 @@
 .core-move {
   background-image: url("../images/backgroundCoreMove.png");
   background-size: contain;
-  background-position: center;
+  background-color: #30838c;
   background-repeat: no-repeat;
 }
 
@@ -68,29 +69,9 @@
   margin: 15px;
 }
 
-.alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after {
-  color: #000;
-  font-size: 50px;
-}
-
-@media (min-width: 768px) {
-  .alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after {
-    color: #fff;
-    font-size: 50px;
-  }
-}
-
 .flip-card {
-  background-color: transparent;
-  height: 200px;
-  perspective: 1000px;
-  margin: 20px;
-}
-
-@media (min-width: 768px) {
-  .flip-card {
-    height: 550px;
-  }
+  width: 25vw;
+  height:25vw;
 }
 
 .flip-card-inner {
@@ -100,7 +81,7 @@
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
 }
 
 .flip-card:hover .flip-card-inner {
@@ -120,13 +101,14 @@
 }
 
 .flip-card-front { 
-  background-color: var(--color-highlight);
-  color: black;
+  color: #fff;
+  background: linear-gradient(
+    264.99deg
+    ,rgba(52, 52, 52, 0.9),rgba(190, 191, 191, 0.8) 95.58%); 
 }
 
 .flip-card-back {
-  background-color: var(--color-highlight);
-  color: black;
+   color: black;
   transform: rotateY(180deg);
 }
 

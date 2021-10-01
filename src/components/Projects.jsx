@@ -20,54 +20,45 @@ const Projects = (props) => {
 
   return (
     <>
+      <h2>{languageToUse.projects}</h2>
+      <h3>{languageToUse.projectsUnderTitle}</h3>
       <div id="projects" className="projects">
         <div class="flip-card project-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <h2>Claire Turner</h2>
+              <h2>Claire Turner Design</h2>
+              <p>{languageToUse.claireTurnerDesignDescription}</p>{" "}
             </div>
-            <div class="flip-card-back">
-              <h1>John Doe</h1>
-              <p>Architect & Engineer</p>
+            <div class="flip-card-back claire-turner"></div>
+          </div>
+        </div>
+        <div class="flip-card project-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h2>Seb Gourmet Traiteur</h2>
+              <p>{languageToUse.sebGourmetDescription}</p>
             </div>
+            <div class="flip-card-back seb-gourmet"></div>
           </div>
         </div>
-        <div className="claire-turner project-card">
-          <div className="project-description">
-            <h2>Claire Turner Design</h2>
-            <p>{languageToUse.claireTurnerDesignDescription}</p>
+        <div class="flip-card project-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h2>Core Move</h2>
+              <p>{languageToUse.coreMoveDescription}</p>
+            </div>
+            <div class="flip-card-back core-move"></div>
           </div>
         </div>
-        <div className="seb-gourmet project-card">
-          <div className="project-description">
-            <h2>Seb Gourmet Traiteur</h2>
-            <p>{languageToUse.sebGourmetDescription}</p>
+        <div class="flip-card project-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h2>Le Caribou</h2>
+              <p>Coming Soon! </p>
+            </div>
+            <div class="flip-card-back"></div>
           </div>
         </div>
-        <div className="core-move project-card">
-          <div className="project-description">
-            <h2>Core Move</h2>
-            <p>{languageToUse.coreMoveDescription}</p>
-          </div>
-        </div>{" "}
-        <div className="claire-turner project-card">
-          <div className="project-description">
-            <h2>Claire Turner Design</h2>
-            <p>{languageToUse.claireTurnerDesignDescription}</p>
-          </div>
-        </div>
-        <div className="seb-gourmet project-card">
-          <div className="project-description">
-            <h2>Seb Gourmet Traiteur</h2>
-            <p>{languageToUse.sebGourmetDescription}</p>
-          </div>
-        </div>
-        <div className="core-move project-card">
-          <div className="project-description">
-            <h2>Core Move</h2>
-            <p>{languageToUse.coreMoveDescription}</p>
-          </div>
-        </div>{" "}
       </div>
       <div className="client-icons">
         <img

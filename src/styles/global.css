@@ -10,10 +10,10 @@
 }
 
 body{
-  cursor: url("../images/pointer.png")
-  /* , url("custom.cur") */
-  , default;  background-color: rgb(251, 251, 251);
-
+  /* cursor: url("../images/pointer.png")
+  /* , url("custom.cur") 
+  , default;   */
+  background-color: rgb(251, 251, 251);
 }
 
 
@@ -115,24 +115,12 @@ button:hover {
 
 .w3-animate-bottom {
   position: relative;
-  animation: animatebottom 0.4s;
+  animation: animatebottom 0.8s;
 }
 .w3-animate-bottom {
   -webkit-animation: animatebottom 0.8s;
   animation: animatebottom 0.8s;
 }
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 
 
 @keyframes animatebottom {

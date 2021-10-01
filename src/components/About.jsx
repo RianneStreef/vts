@@ -27,7 +27,7 @@ const About = (props) => {
 
   return (
     <div id="about" className="content about">
-      <div className="our-descriptions">
+      <div className="our-descriptions ">
         <div className="padding">
           <h2>{languageToUse.design}</h2>
 

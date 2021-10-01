@@ -12,6 +12,7 @@ export const english = {
     "I am a Dutch girl with a hospitality background, now working as a freelance web developer. I mostly work from my home in the French Alps, Val Thorens. In 2020 I decided to turn this negative COVID situation into a positive experience and I completed my education in web design and development.",
   rianne2:
     "By creating fully responsive websites that perfectly present your business and exceed your expectations, I can help you do better online. I love what I do and am always looking to improve my skills and offer new possibilities.",
+
   projects: "Projects",
   projectsUnderTitle: "They trusted us!",
 
