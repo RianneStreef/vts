@@ -6,7 +6,7 @@
 :root {
   --color-highlight: rgb(214, 212, 212);
   --color-dark: #494949;
-  --color-special: #0f62ff;
+  --color-special: #40c8e0;
 }
 
 body{
@@ -21,6 +21,7 @@ h1, h2 {
   font-family: "P22 Typewriter Regular" ;
   text-align: center;
   margin-bottom: 10px;
+  color: var(--color-special);
 }
 
 h3, h4 {
@@ -62,6 +63,19 @@ button:hover {
   transition: background-color 500ms ease;
 }
 
+.background-special {
+  background: linear-gradient(
+    264.99deg
+    ,rgba(190, 191, 191, 0.8),rgba(0, 0, 0, 0.9) 95.58%); 
+    padding: 20px 0;
+}
+
+.background-special-revers {
+  background: linear-gradient(
+    264.99deg
+    ,rgba(0, 0, 0, 0.9),rgba(190, 191, 191, 0.8) 95.58%); 
+    padding: 20px 0;
+}
 
 .content {
   flex-grow: 1;

@@ -3,7 +3,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import Welcome from "../components/Welcome";
 import About from "../components/About";
-// import Projects from "../components/Projects";
+import Projects3 from "../components/Projects3";
 import Contact from "../components/Contact";
 
 import "../styles/IndexPage.css";
@@ -19,7 +19,7 @@ const IndexPage = (props) => {
         <Welcome language={language} />
         <div className="background-placeholder" />
         <About language={language} languageToUse={languageToUse} />
-        {/* <Projects language={language} languageToUse={languageToUse} /> */}
+        <Projects3 language={language} languageToUse={languageToUse} />
         <div className="background-placeholder" />
         <Contact language={language} languageToUse={languageToUse} />
         {/* <div className="banner-container">

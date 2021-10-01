@@ -1,0 +1,40 @@
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.c1 {
+  border-right: 2px dotted black;
+}
+
+@media screen and (max-width: 768px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.project-card-placeholder {
+  height: 20vw;
+}
+
+.project-card {
+  border-top: 2px dotted black;
+  height: 40vw;
+}
+
+.bottom-card {
+  border-bottom: 2px dotted black;
+}
+
+.project-card-title {
+  display: flex;
+}
+
+.client-logo {
+  width: 15%;
+  margin: 20px;
+}

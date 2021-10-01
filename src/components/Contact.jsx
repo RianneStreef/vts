@@ -11,7 +11,7 @@ const Contact = (props) => {
     : (languageToUse = content.french);
 
   return (
-    <div className="contact-container">
+    <div className="background-special-revers">
       <div id="contact" className="contact content">
         <h2 className="h2">{languageToUse.contact}</h2>
 

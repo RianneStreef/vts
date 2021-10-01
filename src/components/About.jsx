@@ -26,7 +26,7 @@ const About = (props) => {
     : (languageToUse = content.french);
 
   return (
-    <div className="about-container">
+    <div className="background-special">
       <div id="about" className="content about">
         <div className="our-descriptions ">
           <div className="padding">
