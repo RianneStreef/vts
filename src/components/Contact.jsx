@@ -23,6 +23,7 @@ const Contact = (props) => {
             name="contact"
             method="post"
             data-netlify="true"
+            action="/message.js"
           >
             <input type="hidden" name="form-name" value="contact" />
             <p className="form-items">

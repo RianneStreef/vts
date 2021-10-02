@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 import Header from "./Header.jsx";
 import Footer from "./Footer";
@@ -19,6 +19,10 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
+const LayoutSize = styled.div`
+  min-height: 100vh;
+`;
+
 const Layout = ({ children }) => {
   let [language, setLanguage] = useState("french");
   let languageToUse = "french";
@@ -31,7 +35,7 @@ const Layout = ({ children }) => {
     })
   );
   return (
-    <div className="layout">
+    <LayoutSize className="layout">
       <GlobalStyle />
       <Header
         language={language}
@@ -47,7 +51,7 @@ const Layout = ({ children }) => {
       />
 
       <Copyright language={language} languageToUse={languageToUse} />
-    </div>
+    </LayoutSize>
   );
 };
 
