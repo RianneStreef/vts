@@ -54,12 +54,19 @@
   border-bottom: 2px dotted var(--color-special);
 }
 
+@media (max-width: 768px) {
+  .no-border-mobile {
+    border-bottom: none;
+  }
+}
+
 .project-card-title {
   display: flex;
 }
 
 .client-logo {
-  width: 15%;
+  width: 80px;
+  height: 80px;
   margin: 20px;
 }
 

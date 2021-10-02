@@ -80,7 +80,7 @@ const Projects3 = (props) => {
             </a>
           </div>
         </div>
-        <div className="project-card bottom-card  fade-in-bottom">
+        <div className="project-card bottom-card fade-in-bottom no-border-mobile">
           <div className="project-card-title">
             <h2>Chalet le Caribou</h2>
           </div>
@@ -94,7 +94,7 @@ const Projects3 = (props) => {
       </div>
       <div className="column c2">
         <div className="project-card fade-in-bottom">
-          <div className="project-card-title">
+          <div className="project-card-title ">
             <img
               src={ClaireTurner}
               alt="Claire Turner logo"
@@ -109,7 +109,7 @@ const Projects3 = (props) => {
             </a>
           </div>
         </div>
-        <div className="project-card bottom-card  fade-in-bottom">
+        <div className="project-card bottom-card   fade-in-bottom">
           <div className="project-card-title">
             <img src={CoreMove} alt="Core Move logo" className="client-logo" />
             <h2>Core Move</h2>
