@@ -76,7 +76,7 @@ const Projects3 = (props) => {
               />
               <h2>Seb Gourmet Traiteur</h2>
             </div>
-            <p>{languageToUse.SebGourmetDescription}</p>
+            <p>{languageToUse.sebGourmetDescription}</p>
             <div className="button-container-projects">
               <a href="https://www.coremove.nl" className="button">
                 Learn more
@@ -87,13 +87,14 @@ const Projects3 = (props) => {
             <div className="project-card-title">
               <h2>Chalet le Caribou</h2>
             </div>
-            <p>{languageToUse.CoreMoveDescription}</p>
+            <p>{languageToUse.caribouDescription}</p>
             <div className="button-container-projects">
               <a href="https://www.coremove.nl" className="button">
                 Learn more
               </a>
             </div>
           </div>
+          <div className="project-card-placeholder" />
         </div>
         <div className="column c2">
           <div className="project-card fade-in-bottom">
@@ -105,14 +106,14 @@ const Projects3 = (props) => {
               />
               <h2>Claire Turner</h2>
             </div>
-            <p>{languageToUse.ClaireTurnerDesignDescription}</p>
+            <p>{languageToUse.claireTurnerDesignDescription}</p>
             <div className="button-container-projects">
               <a href="https://www.coremove.nl" className="button">
                 Learn more
               </a>
             </div>
           </div>
-          <div className="project-card bottom-card   fade-in-bottom">
+          <div className="project-card   fade-in-bottom">
             <div className="project-card-title">
               <img
                 src={CoreMove}
@@ -121,14 +122,27 @@ const Projects3 = (props) => {
               />
               <h2>Core Move</h2>
             </div>
-            <p>{languageToUse.CoreMoveDescription}</p>
+            <p>{languageToUse.coreMoveDescription}</p>
             <div className="button-container-projects">
               <a href="https://www.coremove.nl" className="button">
                 Learn more
               </a>
             </div>
           </div>
-          <div className="project-card-placeholder" />
+          <div className="project-card bottom-card  fade-in-bottom">
+            <div className="project-card-title">
+              <h2>The Fundamental Frequency</h2>
+            </div>
+            <p>{languageToUse.tffDescription}</p>
+            <div className="button-container-projects">
+              <a
+                href="https://www.thefundamentalfrequency.com"
+                className="button"
+              >
+                Learn more
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </>

@@ -37,7 +37,7 @@
 }
 
 
-
+/* 
 @media (min-width: 768px) {
   .contact {
     width: 40vw;
@@ -46,11 +46,12 @@
     width: 55vw;
     margin-top: 0;
   }
-}
+} */
 
 
 .contact-form {
   width: 80%;
+  margin: 0 auto;
 }
 
 .input, textarea {

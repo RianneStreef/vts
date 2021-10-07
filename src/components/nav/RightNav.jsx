@@ -17,13 +17,13 @@ const Ul = styled.ul`
   z-index: 10;
   flex-direction: column;
   align-items: flex-end;
-  background-color: #494949;
+  background-color: #000;
   position: fixed;
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
   top: 0;
   right: 0;
   height: 100vh;
-  width: 300px;
+  width: 100vw;
   padding-top: 5rem;
   margin-top: 0;
   transition: transform 0.3s ease-in-out;
@@ -32,7 +32,9 @@ const Ul = styled.ul`
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 10px 45px;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
 
     a {
       color: #fff;

@@ -28,22 +28,25 @@ const About = (props) => {
   return (
     <div className="background-special">
       <div id="about" className="content about">
-        <div className="our-descriptions ">
-          <div className="padding">
-            <h2>{languageToUse.design}</h2>
+        <div className="our-descriptions">
+          <h2>{languageToUse.about}</h2>
+          <div className="descriptions">
+            <div className="padding ">
+              <h3>{languageToUse.design}</h3>
 
-            <p className="centered-text">{languageToUse.xavier}</p>
-            <div className="signature">
-              <p>- Xavier</p>
+              <p className="centered-text">{languageToUse.xavier}</p>
+              <div className="signature">
+                <p>- Xavier</p>
+              </div>
             </div>
-          </div>
-          <div className="padding">
-            <h2>{languageToUse.code}</h2>
+            <div className="padding">
+              <h3>{languageToUse.code}</h3>
 
-            <p className="centered-text">{languageToUse.rianne}</p>
-            <p className="centered-text">{languageToUse.rianne2}</p>
-            <div className="signature">
-              <p>- Rianne</p>
+              <p className="centered-text">{languageToUse.rianne}</p>
+              <p className="centered-text">{languageToUse.rianne2}</p>
+              <div className="signature">
+                <p>- Rianne</p>
+              </div>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Navbar from "./nav/Navbar";
 
 import { content } from "../content/languages";
-import logo from "../images/logo-no-tag.png";
+import logo from "../images/small-logo-white-no-tag.png";
 
 import "../styles/Header.css";
 
@@ -16,7 +16,7 @@ const Header = (props) => {
         header = document.getElementById("header");
         const y = 1 + (window.scrollY || window.pageYOffset);
         const o = (opacity + y) / 600;
-        header.style.backgroundColor = `rgb(225, 225, 225, ${o} `;
+        header.style.backgroundColor = `rgb(0, 0, 0, ${o} `;
       }
     });
   });

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 import { content } from "../content/languages";
 
 import "../styles/Contact.css";
@@ -67,7 +67,7 @@ const Contact = (props) => {
           </form>
         </div>
       </div>
-      <div className="devis-container">
+      {/* <div className="devis-container">
         <div className="devis">
           <h2>Devis</h2>
           <p>
@@ -92,7 +92,7 @@ const Contact = (props) => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

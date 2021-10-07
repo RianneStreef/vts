@@ -22,6 +22,8 @@ export const english = {
     "Children illustrations made in Tallloires, France - This website is used to showcase the artist's products and give some information about her. There is a contact form, and a live feed of her Instagram account.",
   coreMoveDescription:
     "A physical therapist located in The Hague, The Netherlands - This website is used to inform potential clients about services offered. It offers multiple ways to get in contact.",
+  caribouDescription: "Coming soon!",
+  tffDescription: "Coming soon!",
 
   contact: "Contact",
   contactUnderTitle: "Let's Talk!",

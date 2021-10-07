@@ -31,6 +31,12 @@ const Footer = (props) => {
       <div className="background-placeholder" />
       <div className="footer">
         <div className="footer-contact">
+          <img
+            src={logoVerticalWhite}
+            alt="VTS Web Design"
+            className="logo-footer"
+          />
+          <h3>Contact us!</h3>
           <div>
             <a
               href="https://instagram.com/vtswebdesign"
@@ -50,11 +56,6 @@ const Footer = (props) => {
               <FontAwesomeIcon className="contact-icon" icon={faMobileAlt} />
             </a>
           </div>
-          <img
-            src={logoVerticalWhite}
-            alt="VTS Web Design"
-            className="logo-footer"
-          />
         </div>
         <div>
           <InfoPack language={language} languageToUse={languageToUse} />

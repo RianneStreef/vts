@@ -1,7 +1,7 @@
 export const french = {
   language: "french",
 
-  about: "About Us",
+  about: "A propos",
 
   design: "designer",
   code: "<coder>",
@@ -14,11 +14,14 @@ export const french = {
   projects: "Projets",
   projectsUnderTitle: "Ils nous ont fait confiance!",
 
-  SebGourmetDescription: "A catering company located in the French Alps",
-  ClaireTurnerDesignDescription:
+  sebGourmetDescription: "A catering company located in the French Alps",
+  claireTurnerDesignDescription:
     "Children illustrations made in Tallloires, France",
-  CoreMoveDescription:
+  coreMoveDescription:
     "A physical therapist located in The Hague, The Netherlands",
+  caribouDescription: "Coming soon!",
+  tffDescription: "Coming soon!",
+
   contact: "Contact",
   contactUnderTitle: "Let's Talk!",
 

@@ -1,10 +1,8 @@
-
-
 .about {
   padding-bottom: 50px;
   margin-right: 0;
   margin-top: -70px;
-  
+
 }
 
 .our-descriptions {
@@ -16,7 +14,7 @@
 
 
 @media (min-width: 768px) {
-  .our-descriptions > * {
+  .descriptions > * {
     width: 50%;
   }
 }
@@ -34,6 +32,9 @@
 
 @media (min-width: 768px) {
   .our-descriptions {
+    flex-direction: column;
+  }
+  .descriptions {
     flex-direction: row;
   }
 }
