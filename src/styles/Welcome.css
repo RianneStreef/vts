@@ -11,6 +11,12 @@
   height: 100vh;
 }
 
+@media (min-width: 768px) {
+ .welcome {
+   background-size: cover;
+ };
+}
+
 .welcome-logo {
   width: 80%;
 }
