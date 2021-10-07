@@ -49,6 +49,10 @@ p {
   color: #000;
 }
 
+input, textarea {
+  background-color: transparent;
+}
+
 button, .button {
   font-family: "P22 Typewriter Regular" ;
   border: 3px solid var(--color-special);

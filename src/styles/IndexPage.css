@@ -1,5 +1,7 @@
-.background-placeholder {
-  height: 100px; 
+@media (min-width: 768px) {
+  .background-placeholder {
+    height: 100px; 
+  }
 }
 
 .banner-container {

@@ -1,14 +1,9 @@
 .about {
-  padding-bottom: 50px;
-  margin-right: 0;
-  margin-top: -70px;
-
+  margin: 0;
+  padding: 0;
 }
 
 .our-descriptions {
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   background-color: #fff;
 }
 
@@ -16,6 +11,18 @@
 @media (min-width: 768px) {
   .descriptions > * {
     width: 50%;
+  }
+  .our-descriptions {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+
+  .about {
+    padding-bottom: 50px;
+    margin-right: 0;
+    margin-top: -70px;
+  
   }
 }
 
@@ -30,14 +37,7 @@
   font-weight: 100;
 }
 
-@media (min-width: 768px) {
-  .our-descriptions {
-    flex-direction: column;
-  }
-  .descriptions {
-    flex-direction: row;
-  }
-}
+
 
 .competence-icons {
   display: flex;
