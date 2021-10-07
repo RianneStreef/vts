@@ -11,9 +11,9 @@
   height: 100vh;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
  .welcome {
-   background-size: cover;
+   background-size: contain;
  };
 }
 
