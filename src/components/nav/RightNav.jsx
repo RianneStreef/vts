@@ -19,7 +19,7 @@ const Ul = styled.ul`
   align-items: flex-end;
   background-color: #000;
   position: fixed;
-  transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
+  transform: ${({ open }) => (open ? "translateY(0)" : "translateY(100%)")};
   top: 0;
   right: 0;
   height: 100vh;

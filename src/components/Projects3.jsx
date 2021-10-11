@@ -78,7 +78,11 @@ const Projects3 = (props) => {
             </div>
             <p>{languageToUse.sebGourmetDescription}</p>
             <div className="button-container-projects">
-              <a href="https://www.coremove.nl" className="button">
+              <a
+                href="https://www.sebgourmet-traiteur.com"
+                target="blank"
+                className="button"
+              >
                 Learn more
               </a>
             </div>
@@ -89,9 +93,9 @@ const Projects3 = (props) => {
             </div>
             <p>{languageToUse.caribouDescription}</p>
             <div className="button-container-projects">
-              <a href="https://www.coremove.nl" className="button">
+              {/* <a href="https://www.coremove.nl" className="button">
                 Learn more
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="project-card-placeholder" />
@@ -108,7 +112,11 @@ const Projects3 = (props) => {
             </div>
             <p>{languageToUse.claireTurnerDesignDescription}</p>
             <div className="button-container-projects">
-              <a href="https://www.coremove.nl" className="button">
+              <a
+                href="https://www.claireturner-design.com"
+                target="blank"
+                className="button"
+              >
                 Learn more
               </a>
             </div>
@@ -135,12 +143,12 @@ const Projects3 = (props) => {
             </div>
             <p>{languageToUse.tffDescription}</p>
             <div className="button-container-projects">
-              <a
+              {/* <a
                 href="https://www.thefundamentalfrequency.com"
                 className="button"
               >
                 Learn more
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
