@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled, { createGlobalStyle } from "styled-components";
 
 import Header from "./Header.jsx";
@@ -25,7 +25,16 @@ const LayoutSize = styled.div`
 
 const Layout = ({ children }) => {
   let [language, setLanguage] = useState("french");
-  let languageToUse = "french";
+  let languageToUse = "";
+  let languageInStorage = "";
+
+  useEffect(() => {
+    if (localStorage.getItem("languageInStorage")) {
+      setLanguage(languageInStorage);
+      console.log("language found");
+      console.log(languageInStorage);
+    }
+  }, []);
 
   const childrenWithProps = React.Children.map(children, (child) =>
     React.cloneElement(child, {

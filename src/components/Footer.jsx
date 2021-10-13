@@ -22,6 +22,7 @@ const Footer = (props) => {
     console.log(language);
     setLanguage(language);
     setIsShown(false);
+    localStorage.setItem("languageInStorage", language);
   }
 
   let [isShown, setIsShown] = useState(false);

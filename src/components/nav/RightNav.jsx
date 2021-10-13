@@ -86,6 +86,7 @@ const RightNav = (props) => {
   function handleSetLanguage(language) {
     console.log(language);
     setLanguage(language);
+    localStorage.setItem("languageInStorage", language);
   }
 
   useEffect(() => {
