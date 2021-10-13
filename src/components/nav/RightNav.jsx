@@ -111,9 +111,9 @@ const RightNav = (props) => {
           <span>{languageToUse.contact}</span>
         </AnchorLink>
       </li>
-      {/* <li className="menu-item">
+      <li className="menu-item">
         <Link to="/intake">Intake</Link>
-      </li> */}
+      </li>
 
       <li>
         {languageToUse.language === "english" ? (
