@@ -4,34 +4,35 @@ export const french = {
   about: "A propos",
 
   design: "designer",
-  code: "<coder>",
+  code: "< coder >",
 
-  xavier:
-    " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fringilla venenatis sem, non eleifend ex tincidunt a. Phasellus blandit, leo id finibus congue, orci felis elementum diam, ac venenatis mauris mi vitae mi. Mauris imperdiet leo a molestie tincidunt. Etiam sed massa in lacus egestas vehicula. Aliquam erat volutpat. Aliquam sollicitudin, eros ac laoreet posuere, dolor sem facilisis sapien, ac venenatis nibh nibh bibendum dolor. Vestibulum porttitor porta quam, consequat accumsan tellus ultricies vel. Donec efficitur orci id turpis interdum lacinia. Morbi neque mauris, tincidunt ultrices dui ac, dignissim venenatis libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in aliquet nisl. Ut at neque ac nunc molestie egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+  xavier: "Graphiste freelance avec plus que 10 ans d'expérience.",
   rianne:
-    "I am a Dutch girl with a hospitality background, now working as a freelance web developer. I mostly work from my home in the French Alps, Val Thorens. In 2020 I decided to turn this negative COVID situation into a positive experience and I completed my education in web design and development.",
+    "Je suis une fille néerlandaise avec une formation en hôtellerie, je travaille maintenant en tant que développeur web indépendant. Je travaille principalement depuis mon domicile dans les Alpes françaises, Val Thorens. En 2020, j'ai décidé de transformer cette situation COVID négative en une expérience positive et j'ai terminé ma formation.",
   rianne2:
-    "By creating fully responsive websites that perfectly present your business and exceed your expectations, I can help you do better online. I love what I do and am always looking to improve my skills and offer new possibilities.",
-
+    "En créant des sites web entièrement réactifs qui présentent parfaitement votre entreprise et dépassent vos attentes, je peux vous aider à faire mieux en ligne. J'aime ce que je fais et je cherche toujours à améliorer mes compétences et à offrir de nouvelles possibilités.",
   projects: "Projets",
   projectsUnderTitle: "Ils nous ont fait confiance!",
 
-  sebGourmetDescription: "A catering company located in the French Alps",
+  sebGourmetDescription:
+    "Un traiteur basé dans les Alpes. Le site est utilisé pour promouvoir des produits et services.",
   claireTurnerDesignDescription:
-    "Children illustrations made in Tallloires, France",
+    "Illustrations pour enfants réalisées à Talloires, France. Ce site est utilisé pour présenter des produits et des collections ainsi qu'un moyen de contacter l'artiste pour des articles personnalisés. ",
   coreMoveDescription:
-    "A physical therapist located in The Hague, The Netherlands",
-  caribouDescription: "Coming soon!",
-  tffDescription: "Coming soon!",
-
+    "Un kinéthérapeute situé à La Haye, aux Pays-Bas. Ce site informe les clients et les clients potentiels sur les services offerts, les prix et comment contacter le thérapeute.",
+  caribouDescription:
+    "Un restaurant d'altitude à Val Thorens, France. Coming soon!",
+  tffDescription:
+    "Une agence d'artistes et d'événements située en Savoie, France. Coming soon!",
   contact: "Contact",
-  contactUnderTitle: "Let's Talk!",
+  contactUnderTitle: "Discutons!",
 
   name: "Nom",
   email: "Email",
   message: "Message",
   send: "Envoyer",
 
+  footerContact: "Contactez nous!",
   infoPack: "Recevez une pack d'information sans engagement",
   request: "Demande",
 

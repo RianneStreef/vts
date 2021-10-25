@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styled from "styled-components";
+import { content } from "../content/languages";
 
 import InfoPack from "../components/InfoPack";
 
@@ -25,6 +25,10 @@ const Footer = (props) => {
     localStorage.setItem("languageInStorage", language);
   }
 
+  language === "english"
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
+
   let [isShown, setIsShown] = useState(false);
 
   return (
@@ -37,7 +41,7 @@ const Footer = (props) => {
             alt="VTS Web Design"
             className="logo-footer"
           />
-          <h3>Contact us!</h3>
+          <h3>{languageToUse.footerContact}</h3>
           <div>
             <a
               href="https://instagram.com/vtswebdesign"

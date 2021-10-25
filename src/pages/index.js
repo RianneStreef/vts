@@ -10,11 +10,23 @@ import "../styles/IndexPage.css";
 
 // import footerBanner from "../images/footer-banner.jpeg";
 
+import { Helmet } from "react-helmet";
+
 const IndexPage = (props) => {
   let { language, languageToUse } = props;
 
   return (
     <>
+      <Helmet>
+        <title>VTS Web Design</title>
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content="Creator of digital solutions" />
+        <meta
+          name="keywords"
+          content=" Graphic Design, Web Design, Val Thorens"
+        />
+        <link rel="canonical" href="https://www.vts-webdesign.com/" />
+      </Helmet>
       <div>
         <Welcome language={language} />
         <div className="background-placeholder" />

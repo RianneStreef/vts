@@ -4,10 +4,9 @@ export const english = {
   about: "About Us",
 
   design: "design",
-  code: "<code>",
+  code: "< code >",
 
-  xavier:
-    " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fringilla venenatis sem, non eleifend ex tincidunt a. Phasellus blandit, leo id finibus congue, orci felis elementum diam, ac venenatis mauris mi vitae mi. Mauris imperdiet leo a molestie tincidunt. Etiam sed massa in lacus egestas vehicula. Aliquam erat volutpat. Aliquam sollicitudin, eros ac laoreet posuere, dolor sem facilisis sapien, ac venenatis nibh nibh bibendum dolor. Vestibulum porttitor porta quam, consequat accumsan tellus ultricies vel. Donec efficitur orci id turpis interdum lacinia. Morbi neque mauris, tincidunt ultrices dui ac, dignissim venenatis libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in aliquet nisl. Ut at neque ac nunc molestie egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+  xavier: "Freelance graphic designer with over 10 years of experience.",
   rianne:
     "I am a Dutch girl with a hospitality background, now working as a freelance web developer. I mostly work from my home in the French Alps, Val Thorens. In 2020 I decided to turn this negative COVID situation into a positive experience and I completed my education in web design and development.",
   rianne2:
@@ -17,13 +16,15 @@ export const english = {
   projectsUnderTitle: "They trusted us!",
 
   sebGourmetDescription:
-    "A catering company located in the French Alps - This website is used to showcase products offered and to promote certain services. It includes a live stream of the company's Instagram account, and serveral ways to get in contact. ",
+    "A catering company located in the French Alps. The site is used to promote products and services.",
   claireTurnerDesignDescription:
-    "Children illustrations made in Tallloires, France - This website is used to showcase the artist's products and give some information about her. There is a contact form, and a live feed of her Instagram account.",
+    "Children illustrations made in Tallloires, France. This website is used to showcase products and collections as well as a way to contact the artist for personalized items. ",
   coreMoveDescription:
-    "A physical therapist located in The Hague, The Netherlands - This website is used to inform potential clients about services offered. It offers multiple ways to get in contact.",
-  caribouDescription: "Coming soon!",
-  tffDescription: "Coming soon!",
+    "A physical therapist located in The Hague, The Netherlands. This site informs clients and potential clients about services offered, prices and how the contact the therapist.",
+  caribouDescription:
+    "A restaurant on the slopes of Val Thorens, France. Coming soon!",
+  tffDescription:
+    "An artists and event agency located in the Savoie, France. Coming soon!",
 
   contact: "Contact",
   contactUnderTitle: "Let's Talk!",
@@ -33,10 +34,10 @@ export const english = {
   message: "Message",
   send: "Send",
 
+  footerContact: "Contact us!",
   infoPack: "Receive a commitment free information package",
   request: "Request",
 
   copyright: "VTS Web Design - All rights reserved.",
   mentionsLegal: "Legal mentions",
-  copyright3: "Created by ",
 };
