@@ -132,7 +132,11 @@ const Projects3 = (props) => {
             </div>
             <p>{languageToUse.coreMoveDescription}</p>
             <div className="button-container-projects">
-              <a href="https://www.coremove.nl" className="button">
+              <a
+                href="https://www.coremove.nl"
+                className="button"
+                target="blank"
+              >
                 Learn more
               </a>
             </div>
