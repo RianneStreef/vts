@@ -2,9 +2,6 @@ import React from "react";
 
 import { Link } from "gatsby";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCopyright } from "@fortawesome/free-solid-svg-icons";
-
 import { content } from "../content/languages";
 
 import "../styles/Copyright.css";
@@ -19,11 +16,7 @@ const Copyright = (props) => {
     <div className="copyright">
       <p>
         Copyright
-        <sup>
-          {" "}
-          <FontAwesomeIcon icon={faCopyright} size="1x" />
-        </sup>{" "}
-        {languageToUse.copyright}
+        <sup> </sup> {languageToUse.copyright}
       </p>
       <p>
         <Link to="/legal">{languageToUse.mentionsLegal}</Link>

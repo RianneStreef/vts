@@ -20,13 +20,13 @@ const Welcome = (props) => {
         <img
           src={LogoWelcomeFR}
           alt="Logo VTS web design"
-          className="welcome-logo fade-in-bottom"
+          className="welcome-logo w3-animate-bottom"
         />
       ) : (
         <img
           src={LogoWelcomeEN}
           alt="Logo VTS web design"
-          className="welcome-logo fade-in-bottom"
+          className="welcome-logo w3-animate-bottom"
         />
       )}
       <div>

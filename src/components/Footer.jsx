@@ -3,14 +3,6 @@ import { content } from "../content/languages";
 
 import InfoPack from "../components/InfoPack";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import {
-  faEnvelope,
-  faMobileAlt,
-  faMapMarkerAlt,
-} from "@fortawesome/free-solid-svg-icons";
-
 import logoVerticalWhite from "../images/logo-white-no-tag.png";
 
 import "../styles/Footer.css";
@@ -47,19 +39,13 @@ const Footer = (props) => {
               href="https://instagram.com/vtswebdesign"
               alt="Our Instagram account"
               target="blank"
-            >
-              <FontAwesomeIcon className="contact-icon" icon={faInstagram} />
-            </a>
+            ></a>
             <a
               href="mailto:contact@vts-webdesign.com"
               alt="Email us"
               target="blank"
-            >
-              <FontAwesomeIcon className="contact-icon" icon={faEnvelope} />
-            </a>
-            <a href="tel:0033682927855" alt="Call us" target="blank">
-              <FontAwesomeIcon className="contact-icon" icon={faMobileAlt} />
-            </a>
+            ></a>
+            <a href="tel:0033682927855" alt="Call us" target="blank"></a>
           </div>
         </div>
         <div>
@@ -67,7 +53,6 @@ const Footer = (props) => {
         </div>
         <div className="footer-right">
           <p className="location">
-            <FontAwesomeIcon className="location-icon" icon={faMapMarkerAlt} />{" "}
             Residence la Saponaire,
             <br /> Val Thorens, France
           </p>
