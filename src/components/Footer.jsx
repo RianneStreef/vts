@@ -5,6 +5,11 @@ import InfoPack from "../components/InfoPack";
 
 import logoVerticalWhite from "../images/logo-white-no-tag.png";
 
+import mobile from "../images/mobile-white.png";
+import envelope from "../images/envelope-white.png";
+import insta from "../images/instagram-white.png";
+import marker from "../images/map-marker-alt-solid-white.png";
+
 import "../styles/Footer.css";
 
 const Footer = (props) => {
@@ -34,18 +39,24 @@ const Footer = (props) => {
             className="logo-footer"
           />
           <h3>{languageToUse.footerContact}</h3>
-          <div>
+          <div className="contact-icons">
             <a
               href="https://instagram.com/vtswebdesign"
               alt="Our Instagram account"
               target="blank"
-            ></a>
+            >
+              <img src={insta} className="contact-icon" />
+            </a>
             <a
               href="mailto:contact@vts-webdesign.com"
               alt="Email us"
               target="blank"
-            ></a>
-            <a href="tel:0033682927855" alt="Call us" target="blank"></a>
+            >
+              <img src={envelope} className="contact-icon" />
+            </a>
+            <a href="tel:0033682927855" alt="Call us" target="blank">
+              <img src={mobile} className="contact-icon" />
+            </a>
           </div>
         </div>
         <div>
@@ -53,6 +64,7 @@ const Footer = (props) => {
         </div>
         <div className="footer-right">
           <p className="location">
+            <img src={marker} className="location-icon" />
             Residence la Saponaire,
             <br /> Val Thorens, France
           </p>

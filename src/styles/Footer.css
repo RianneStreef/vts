@@ -47,10 +47,21 @@
   }
 }
 
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact-icon {
   margin: 15px;
   color: #fff; 
   text-decoration: none;
+  width: 30%;
+}
+
+.location-icon {
+  width: 6%;
 }
 
 .footer-icon:visited {
@@ -61,6 +72,7 @@
 .location {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .location-icon {
