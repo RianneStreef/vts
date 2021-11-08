@@ -44,6 +44,7 @@ const Footer = (props) => {
               href="https://instagram.com/vtswebdesign"
               alt="Our Instagram account"
               target="blank"
+              className="contact-link"
             >
               <img src={insta} className="contact-icon" />
             </a>
@@ -51,10 +52,11 @@ const Footer = (props) => {
               href="mailto:contact@vts-webdesign.com"
               alt="Email us"
               target="blank"
+              className="contact-link"
             >
               <img src={envelope} className="contact-icon" />
             </a>
-            <a href="tel:0033682927855" alt="Call us" target="blank">
+            <a href="tel:0033682927855" alt="Call us" className="contact-link">
               <img src={mobile} className="contact-icon" />
             </a>
           </div>
