@@ -23,8 +23,8 @@ export const english = {
     "A physical therapist located in The Hague, The Netherlands. This site informs clients and potential clients about services offered, prices and how the contact the therapist.",
   caribouDescription:
     "A restaurant on the slopes of Val Thorens, France. Coming soon!",
-  tffDescription:
-    "An artists and event agency located in the Savoie, France. Coming soon!",
+  foDescription:
+    "A restaurant menu, designed for mobile phone use, connected to a QR code.",
 
   contact: "Contact",
   contactUnderTitle: "Let's Talk!",

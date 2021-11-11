@@ -22,8 +22,8 @@ export const french = {
     "Un kinéthérapeute situé à La Haye, aux Pays-Bas. Ce site informe les clients et les clients potentiels sur les services offerts, les prix et comment contacter le thérapeute.",
   caribouDescription:
     "Un restaurant d'altitude à Val Thorens, France. Coming soon!",
-  tffDescription:
-    "Une agence d'artistes et d'événements située en Savoie, France. Coming soon!",
+  foDescription:
+    "Une carte de restaurant, désigné pour téléphone, connecté à un QR code.",
   contact: "Contact",
   contactUnderTitle: "Discutons!",
 

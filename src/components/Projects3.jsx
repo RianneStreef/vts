@@ -5,6 +5,7 @@ import { content } from "../content/languages";
 import SebGourmet from "../images/icons/seb-gourmet-traiteur-logo.png";
 import ClaireTurner from "../images/icons/claire-turner-design-logo.png";
 import CoreMove from "../images/icons/core-move-logo.png";
+import FaceOuest from "../images/icons/logo-FO.png";
 
 const Projects3 = (props) => {
   let { language, languageToUse } = props;
@@ -89,13 +90,18 @@ const Projects3 = (props) => {
           </div>
           <div className="project-card bottom-card fade-in-bottom no-border-mobile">
             <div className="project-card-title">
-              <h2>Chalet le Caribou</h2>
+              <img
+                src={FaceOuest}
+                alt="La Face Ouest logo"
+                className="client-logo"
+              />
+              <h2>Restaurant La Face Ouest</h2>
             </div>
-            <p>{languageToUse.caribouDescription}</p>
+            <p>{languageToUse.foDescription}</p>
             <div className="button-container-projects">
-              {/* <a href="https://www.coremove.nl" className="button">
+              <a href="https://www.menu-lafaceouest.com" className="button">
                 Learn more
-              </a> */}
+              </a>
             </div>
           </div>
           <div className="project-card-placeholder" />
@@ -143,14 +149,11 @@ const Projects3 = (props) => {
           </div>
           <div className="project-card bottom-card  fade-in-bottom">
             <div className="project-card-title">
-              <h2>The Fundamental Frequency</h2>
+              <h2>Chalet le Caribou</h2>
             </div>
-            <p>{languageToUse.tffDescription}</p>
+            <p>{languageToUse.caribouDescription}</p>
             <div className="button-container-projects">
-              {/* <a
-                href="https://www.thefundamentalfrequency.com"
-                className="button"
-              >
+              {/* <a href="https://www.coremove.nl" className="button">
                 Learn more
               </a> */}
             </div>
