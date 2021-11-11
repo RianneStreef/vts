@@ -8,7 +8,7 @@ export const french = {
 
   xavier: "Graphiste freelance avec plus que 10 ans d'expérience.",
   rianne:
-    "Je suis une fille néerlandaise avec une formation en hôtellerie, je travaille maintenant en tant que développeur web indépendant. Je travaille principalement depuis mon domicile dans les Alpes françaises, Val Thorens. En 2020, j'ai décidé de transformer cette situation COVID négative en une expérience positive et j'ai terminé ma formation.",
+    "Je suis une Néerlandaise avec une formation en hôtellerie, je travaille maintenant en tant que développeur web indépendant. Je travaille principalement depuis mon domicile dans les Alpes françaises, Val Thorens. En 2020, j'ai décidé de transformer cette situation COVID négative en une expérience positive et j'ai terminé ma formation.",
   rianne2:
     "En créant des sites web entièrement réactifs qui présentent parfaitement votre entreprise et dépassent vos attentes, je peux vous aider à faire mieux en ligne. J'aime ce que je fais et je cherche toujours à améliorer mes compétences et à offrir de nouvelles possibilités.",
   projects: "Projets",
