@@ -32,7 +32,6 @@
 
 .project-card {
   border-top: 2px dotted var(--color-special);
-  height: 40vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

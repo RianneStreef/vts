@@ -1,18 +1,28 @@
 import React from "react";
+import styled from "styled-components";
 import Burger from "./Burger";
 
-import "../../styles/Nav.css";
+import "../../styles/global.css";
+
+const Nav = styled.nav`
+  height: 55px;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+`;
 
 const Navbar = (props) => {
   let { language, setLanguage, languageToUse } = props;
   return (
-    <div className="nav-bar" id="navbar">
+    <Nav id="navbar">
       <Burger
         language={language}
         setLanguage={setLanguage}
         languageToUse={languageToUse}
       />
-    </div>
+    </Nav>
   );
 };
 
