@@ -40,4 +40,7 @@ export const english = {
 
   copyright: "VTS Web Design - All rights reserved.",
   mentionsLegal: "Legal mentions",
+
+  thanks: "Thank you for your message, we will get back to you soon!",
+  back: "Back",
 };

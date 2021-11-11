@@ -23,7 +23,7 @@ const Contact = (props) => {
             name="contact"
             method="post"
             data-netlify="true"
-            action="/message.js"
+            action="/message"
             netlify-honeypot="bot-field"
           >
             <input

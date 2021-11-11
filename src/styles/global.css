@@ -10,9 +10,6 @@
 }
 
 body{
-  cursor: url("../images/pointer.png")
-  /* , url("custom.cur") */
-  , default;   
   background-color: rgb(251, 251, 251);
 }
 

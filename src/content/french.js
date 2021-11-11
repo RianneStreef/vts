@@ -38,4 +38,7 @@ export const french = {
 
   copyright: "VTS Web Design - Tous droits réservés.",
   mentionsLegal: "Mentions Légales",
+
+  thanks: "Merci pour votre message, on vous repondra rapidement!",
+  back: "Retour",
 };
