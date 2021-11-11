@@ -1,15 +1,12 @@
 import React from "react";
-import styled from "styled-components";
 import Layout from "../components/Layout";
 
-const Legal = styled.div`
-  margin: 150px 50px 50px 50px;
-`;
+import "../styles/LegalPage.css";
 
 const LegalPage = () => {
   return (
     <div>
-      <Legal>
+      <div className="legal">
         <h2>Informations légales</h2>
         <h3>1. Présentation du site.</h3>
         <p>
@@ -282,7 +279,7 @@ const LegalPage = () => {
           personnes physiques auxquelles elles s'appliquent » (article 4 de la
           loi n° 78-17 du 6 janvier 1978).
         </p>
-      </Legal>
+      </div>
     </div>
   );
 };
