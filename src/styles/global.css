@@ -90,6 +90,15 @@ button:hover, .button:hover{
   margin: 30px 20px ;
 }
 
+.header-placeholder {
+  height: 100px;
+  width: 100vw;
+}
+
+.show-header {
+  background-color: #000;
+}
+
 @media (min-width: 768px) {
   .content {
     flex-grow: 1;

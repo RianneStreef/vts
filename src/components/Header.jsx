@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./nav/Navbar";
 
 import { content } from "../content/languages";
@@ -29,8 +29,19 @@ const Header = (props) => {
   language === "english"
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
+
+  let [pathname, setPathname] = useState("");
+
+  useEffect(() => {
+    setPathname(window.location.pathname);
+    console.log(pathname);
+  });
+
   return (
-    <div className="header" id="header">
+    <div
+      className={`header ${pathname == "/intake" ? "show-header" : ""}`}
+      id="header"
+    >
       <img src={logo} alt="VTS logo" className="header-logo hidden-mobile " />
       <Navbar
         language={language}

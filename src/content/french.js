@@ -41,4 +41,6 @@ export const french = {
 
   thanks: "Merci pour votre message, on vous repondra rapidement!",
   back: "Retour",
+
+  intake: "Coming soon!",
 };

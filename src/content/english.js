@@ -43,4 +43,6 @@ export const english = {
 
   thanks: "Thank you for your message, we will get back to you soon!",
   back: "Back",
+
+  intake: "Coming soon!",
 };

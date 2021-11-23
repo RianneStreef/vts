@@ -1,13 +1,20 @@
 import React from "react";
 import Layout from "../components/Layout";
-import underConstruction from "../images/under-construction.png";
+
+import { content } from "../content/languages";
 
 import "../styles/IntakePage.css";
 
-const IntakePage = () => {
+const IntakePage = (props) => {
+  let { language, languageToUse } = props;
+
+  language === "english"
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
   return (
     <div className="intake">
-      <img src={underConstruction} className="under-construction" />
+      <div className="header-placeholder" />
+      <p>{languageToUse.intake}</p>
     </div>
   );
 };
