@@ -23,8 +23,7 @@ const Header = (props) => {
 
   let { language, setLanguage, languageToUse } = props;
 
-  console.log(language);
-  console.log(setLanguage);
+  console.log(pathname);
 
   language === "english"
     ? (languageToUse = content.english)
@@ -39,7 +38,9 @@ const Header = (props) => {
 
   return (
     <div
-      className={`header ${pathname == "/intake" ? "show-header" : ""}`}
+      className={`header ${
+        pathname == "/intake" || pathname === "/intake/" ? "show-header" : ""
+      }`}
       id="header"
     >
       <img src={logo} alt="VTS logo" className="header-logo hidden-mobile " />
