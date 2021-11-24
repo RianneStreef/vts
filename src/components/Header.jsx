@@ -23,8 +23,6 @@ const Header = (props) => {
 
   let { language, setLanguage, languageToUse } = props;
 
-  console.log(pathname);
-
   language === "english"
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
