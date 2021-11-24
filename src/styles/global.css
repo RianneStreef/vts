@@ -95,9 +95,6 @@ button:hover, .button:hover{
   width: 100vw;
 }
 
-.show-header {
-  background-color: #000;
-}
 
 @media (min-width: 768px) {
   .content {
