@@ -11,10 +11,22 @@ function InfoPack(props) {
     : (languageToUse = content.french);
   return (
     <>
-      <form className="info-form" name="info" method="post" data-netlify="true">
+      <form
+        className="info-form"
+        name="info"
+        method="post"
+        data-netlify="true"
+        action="/message"
+        netlify-honeypot="bot-field"
+      >
         <div>
           <p className="centered-text">{languageToUse.infoPack}</p>
         </div>
+        <p className="hidden">
+          <label>
+            Don’t fill this out if you’re human: <input name="bot-field" />
+          </label>
+        </p>
         <input type="hidden" name="form-name" value="contact" />
 
         <p className="form-items">
