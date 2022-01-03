@@ -18,6 +18,25 @@
   border-bottom: 1px solid #fff;
 }
 
+.set-language-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag {
+  width: 15%;
+  margin: 20px;
+}
+
+.opaque {
+  opacity: 100%;
+}
+
+.fade {
+  opacity: 50%;
+}
+
 @media (min-width: 768px) {
   .footer {
     display: flex;
