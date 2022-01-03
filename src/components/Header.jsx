@@ -37,13 +37,14 @@ const Header = (props) => {
   });
 
   //getting the styles from root of the css file
-  var cardsColor = document.documentElement.style;
-  var backgroundColor = document.documentElement.style;
-  var specialColor = document.documentElement.style;
-  var inverseColor = document.documentElement.style;
-  var backgroundGradientColor = document.documentElement.style;
+
   //run this function when we change darkMode input
   function handleDarkMode() {
+    var cardsColor = document.documentElement.style;
+    var backgroundColor = document.documentElement.style;
+    var specialColor = document.documentElement.style;
+    var inverseColor = document.documentElement.style;
+    var backgroundGradientColor = document.documentElement.style;
     let checkboxDarkMode = document.getElementById("darkMode");
     if (checkboxDarkMode === true) {
       checkboxDarkMode.checked = false;
