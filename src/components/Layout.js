@@ -5,7 +5,7 @@ import Header from "./Header.jsx";
 import Footer from "./Footer";
 import Copyright from "./Copyright";
 
-import "../styles/Layout.css";
+import "../styles/global.css";
 
 const GlobalStyle = createGlobalStyle`
 

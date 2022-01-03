@@ -19,12 +19,6 @@
   background-color: var(--background);
 }
 
-@media (min-width: 768px) {
-  .hidden-mobile {
-    display: inline;
-  }
-}
-
 .header-logo {
   height: 60px;
   margin: 10px;
@@ -107,6 +101,8 @@ input:checked + .slider:before {
   background-color: var(--color-inverse);
 }
 
-.burger-line-light {
-  background-color: var(--background);
+@media (min-width: 768px) {
+  .hidden-mobile {
+    display: inline;
+  }
 }

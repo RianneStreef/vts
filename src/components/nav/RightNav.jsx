@@ -17,7 +17,8 @@ const Ul = styled.ul`
   z-index: 10;
   flex-direction: column;
   align-items: flex-end;
-  background-color: #000;
+  background-color: var(--background);
+
   position: fixed;
   transform: ${({ open }) => (open ? "translateY(0)" : "translateY(100%)")};
   top: 0;
@@ -37,7 +38,7 @@ const Ul = styled.ul`
     margin: 20px 0;
 
     a {
-      color: #fff;
+      color: var(--color-inverse);
       transition: color 500ms ease-in;
       text-decoration: none;
       font-size: 20px;

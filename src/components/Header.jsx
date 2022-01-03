@@ -70,7 +70,6 @@ const Header = (props) => {
       //   checkboxDarkMode.checked = true;
       // }
       setDarkMode(false);
-      console.log(darkMode);
     } else {
       //changing the value of root property
       cardsColor.setProperty("--cards", "rgb(224, 201, 166)");
