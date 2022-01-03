@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #000;
-  color: #fff;
+  background-color: var(--background);
+  color: var(--color-inverse);
   align-items: center;
-  margin-top: -100px 
+  margin-top: -100px;
 }
 
 .footer p {
@@ -13,11 +13,10 @@
 }
 
 .footer input {
-  background-color: #000;
+  background-color: var(--background);
   border: none;
   border-bottom: 1px solid #fff;
 }
-
 
 @media (min-width: 768px) {
   .footer {
@@ -61,7 +60,7 @@
 
 .contact-icon {
   margin: 15px;
-  color: #fff; 
+  color: var(--color-inverse);
   text-decoration: none;
   width: 25%;
 }
@@ -71,7 +70,7 @@
 }
 
 .footer-icon:visited {
-  color: #fff;
+  color: var(--color-inverse);
   text-decoration: none;
 }
 
@@ -82,7 +81,7 @@
 }
 
 .location-icon {
-  margin-right: 10px;;
+  margin-right: 10px;
 }
 
 .set-language-footer {
@@ -107,7 +106,6 @@
   top: 75vh;
   padding: 20px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-
 }
 
 .select-language-menu p {

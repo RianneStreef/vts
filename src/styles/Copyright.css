@@ -1,9 +1,9 @@
- .copyright {
+.copyright {
   text-align: center;
   font-size: 0.7em;
   line-height: 10px;
-  background-color: #000;
-  color: #fff;
+  background-color: var(--background);
+  color: var(--color-inverse);
 }
 
 .copyright p {
@@ -20,6 +20,5 @@
 }
 
 .vts a {
-  color: #fff;
+  color: var(--color-inverse);
 }
-

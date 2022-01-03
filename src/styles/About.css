@@ -4,8 +4,7 @@
 }
 
 .our-descriptions {
-  background-color: #fff;
-
+  background-color: var(--cards);
 }
 
 @media (min-width: 768px) {
@@ -29,7 +28,7 @@
   }
 }
 
-.signature  {
+.signature {
   text-align: right;
   font-style: italic;
 }
@@ -46,7 +45,7 @@
   margin-top: 100px;
 }
 
-.competence-icon{
+.competence-icon {
   width: 50px;
   margin: 15px;
 }

@@ -13,7 +13,7 @@ import "../styles/IndexPage.css";
 import { Helmet } from "react-helmet";
 
 const IndexPage = (props) => {
-  let { language, languageToUse } = props;
+  let { language, languageToUse, darkMode } = props;
 
   return (
     <>
@@ -28,7 +28,7 @@ const IndexPage = (props) => {
         <link rel="canonical" href="https://www.vts-webdesign.com/" />
       </Helmet>
       <div>
-        <Welcome language={language} />
+        <Welcome language={language} darkMode={darkMode} />
         <div className="background-placeholder" />
         <About language={language} languageToUse={languageToUse} />
         <Projects3 language={language} languageToUse={languageToUse} />

@@ -18,7 +18,6 @@ const StyledBurger = styled.div`
   div {
     width: 2rem;
     height: 0.25rem;
-    background-color: ${({ open }) => (open ? "#fff" : "#fff")};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;
@@ -38,7 +37,7 @@ const StyledBurger = styled.div`
 `;
 
 const Burger = (props) => {
-  let { language, setLanguage, languageToUse } = props;
+  let { language, setLanguage, languageToUse, darkMode } = props;
 
   const [open, setOpen] = useState(false);
 
@@ -48,11 +47,12 @@ const Burger = (props) => {
         open={open}
         language={language}
         setLanguage={setLanguage}
+        darkMode={darkMode}
         onClick={() => setOpen(!open)}
       >
-        <div />
-        <div className="big-margin" />
-        <div className="small-margin" />
+        <div className={` ${darkMode ? "burger-line" : "burger-line-light"}`} />
+        <div className={` ${darkMode ? "burger-line" : "burger-line-light"}`} />
+        <div className={` ${darkMode ? "burger-line" : "burger-line-light"}`} />
       </StyledBurger>
       <RightNav
         open={open}

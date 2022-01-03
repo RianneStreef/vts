@@ -20,7 +20,7 @@
 }
 
 .contact {
-  background-color: #fff;
+  background-color: var(--cards);
 }
 
 .devis-container {
@@ -38,7 +38,6 @@
   width: 90vw;
 }
 
-
 /* 
 @media (min-width: 768px) {
   .contact {
@@ -50,13 +49,13 @@
   }
 } */
 
-
 .contact-form {
   width: 80%;
   margin: 0 auto;
 }
 
-.input, textarea {
+.input,
+textarea {
   border: none;
   border-bottom: solid 1px #000000;
   width: 100%;

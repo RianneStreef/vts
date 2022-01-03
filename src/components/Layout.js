@@ -28,6 +28,8 @@ const Layout = ({ children }) => {
   let languageToUse = "";
   let languageInStorage = "";
 
+  let [darkMode, setDarkMode] = useState("true");
+
   useEffect(() => {
     if (localStorage.getItem("languageInStorage")) {
       setLanguage(languageInStorage);
@@ -41,6 +43,8 @@ const Layout = ({ children }) => {
       language,
       setLanguage,
       languageToUse,
+      darkMode,
+      setDarkMode,
     })
   );
   return (
@@ -50,6 +54,8 @@ const Layout = ({ children }) => {
         language={language}
         setLanguage={setLanguage}
         languageToUse={languageToUse}
+        darkMode={darkMode}
+        setDarkMode={setDarkMode}
       />
       <section className="main">{childrenWithProps}</section>
 
@@ -57,9 +63,16 @@ const Layout = ({ children }) => {
         language={language}
         setLanguage={setLanguage}
         languageToUse={languageToUse}
+        darkMode={darkMode}
+        setDarkMode={setDarkMode}
       />
 
-      <Copyright language={language} languageToUse={languageToUse} />
+      <Copyright
+        language={language}
+        languageToUse={languageToUse}
+        darkMode={darkMode}
+        setDarkMode={setDarkMode}
+      />
     </LayoutSize>
   );
 };
