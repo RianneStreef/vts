@@ -10,23 +10,27 @@ import envelope from "../images/envelope-white.png";
 import insta from "../images/instagram-white.png";
 import marker from "../images/map-marker-alt-solid-white.png";
 
+import flagEn from "../images/icon-en.png";
+import flagFr from "../images/icon-fr.png";
+
 import "../styles/Footer.css";
 
 const Footer = (props) => {
   let { language, setLanguage, languageToUse } = props;
+  console.log("language");
+  console.log(language);
+  console.log(props);
 
   function handleSetLanguage(language) {
     console.log(language);
     setLanguage(language);
-    setIsShown(false);
+
     localStorage.setItem("languageInStorage", language);
   }
 
   language === "english"
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
-
-  let [isShown, setIsShown] = useState(false);
 
   return (
     <>
@@ -72,22 +76,20 @@ const Footer = (props) => {
           </p>
 
           <div className="set-language-footer">
-            {language === "french" ? (
-              <p onClick={() => setIsShown(true)} className="language-option">
-                Français &or;
-              </p>
-            ) : (
-              <p onClick={() => setIsShown(true)} className="language-option">
-                English &or;
-              </p>
-            )}
-
-            {isShown && (
-              <div className="select-language-menu">
-                <p onClick={() => handleSetLanguage("french")}>Français</p>
-                <p onClick={() => handleSetLanguage("english")}>English</p>
-              </div>
-            )}
+            <img
+              src={flagEn}
+              onClick={() => handleSetLanguage("english")}
+              className={`flag ${
+                languageToUse.language === "english" ? "opaque" : "fade"
+              } `}
+            />
+            <img
+              src={flagFr}
+              onClick={() => handleSetLanguage("french")}
+              className={`flag ${
+                languageToUse.language === "french" ? "opaque" : "fade"
+              } `}
+            />
           </div>
         </div>
       </div>
