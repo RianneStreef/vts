@@ -79,13 +79,21 @@ button:hover,
 }
 
 .background-special {
-  background: linear-gradient(264.99deg);
+  background: linear-gradient(
+    264.99deg,
+    rgba(69, 69, 69, 0.8),
+    rgba(0, 0, 0, 1) 100%
+  );
   padding: 20px 0;
   margin-top: 140px;
 }
 
 .background-special-revers {
-  background: linear-gradient(264.99deg);
+  background: linear-gradient(
+    264.99deg,
+    rgba(0, 0, 0, 1),
+    rgba(69, 69, 69, 0.8) 100%
+  );
   padding: 20px 0;
   margin-top: 140px;
 }
