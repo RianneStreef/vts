@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Copyright from "./Copyright";
 
 import "../styles/global.css";
+import "../styles/Layout.css";
 
 const GlobalStyle = createGlobalStyle`
 
