@@ -79,7 +79,7 @@
 
 .contact-icon {
   margin: 15px;
-  color: var(--color-inverse);
+  /* color: var(--color-inverse); */
   text-decoration: none;
   width: 25%;
 }
