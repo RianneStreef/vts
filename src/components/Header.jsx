@@ -62,13 +62,6 @@ const Header = (props) => {
         "rgba(69, 69, 69, 0.8)"
       );
 
-      // let checkboxDarkMode = document.getElementById("darkMode");
-      // if (checkboxDarkMode === true) {
-      //   checkboxDarkMode.checked = false;
-      // }
-      // if (checkboxDarkMode === false) {
-      //   checkboxDarkMode.checked = true;
-      // }
       setDarkMode(false);
     } else {
       //changing the value of root property
@@ -81,13 +74,6 @@ const Header = (props) => {
         "rgba(224, 201, 166, 0.6)"
       );
 
-      // let checkboxDarkMode = document.getElementById("darkMode");
-      // if (checkboxDarkMode === true) {
-      //   checkboxDarkMode.checked = false;
-      // }
-      // if (checkboxDarkMode === false) {
-      //   checkboxDarkMode.checked = true;
-      // }
       setDarkMode(true);
 
       console.log(darkMode);
