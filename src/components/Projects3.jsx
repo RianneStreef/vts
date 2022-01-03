@@ -6,6 +6,7 @@ import SebGourmet from "../images/icons/seb-gourmet-traiteur-logo.png";
 import ClaireTurner from "../images/icons/claire-turner-design-logo.png";
 import CoreMove from "../images/icons/core-move-logo.png";
 import FaceOuest from "../images/icons/logo-FO.png";
+import Caribou from "../images/icons/caribou-logo.png";
 
 const Projects3 = (props) => {
   let { language, languageToUse } = props;
@@ -149,11 +150,12 @@ const Projects3 = (props) => {
           </div>
           <div className="project-card bottom-card  fade-in-bottom">
             <div className="project-card-title">
-              <h2>Chalet le Caribou</h2>
+              <img src={Caribou} alt="Caribou logo" className="client-logo" />
+              <h2>Chalet du Caribou</h2>
             </div>
             <p>{languageToUse.caribouDescription}</p>
             <div className="button-container-projects">
-              {/* <a href="https://www.coremove.nl" className="button">
+              {/* <a href="https://chalet-du-caribou.com" className="button">
                 Learn more
               </a> */}
             </div>

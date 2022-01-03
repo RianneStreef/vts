@@ -25,7 +25,7 @@ const LayoutSize = styled.div`
 
 const Layout = ({ children }) => {
   let [language, setLanguage] = useState("french");
-  let languageToUse = "";
+  let languageToUse = "french";
   let languageInStorage = "";
 
   useEffect(() => {

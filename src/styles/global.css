@@ -1,6 +1,7 @@
 @font-face {
-  font-family: 'P22 Typewriter Regular';
-  src: local('P22 Typewriter Regular'), url(../fonts/P22\ Typewriter\ Regular.ttf) format('truetype');
+  font-family: "P22 Typewriter Regular";
+  src: local("P22 Typewriter Regular"),
+    url(../fonts/P22\ Typewriter\ Regular.ttf) format("truetype");
 }
 
 :root {
@@ -9,19 +10,20 @@
   --color-special: #40c8e0;
 }
 
-body{
+body {
   background-color: rgb(251, 251, 251);
 }
 
-
-h1, h2 {
-  font-family: "P22 Typewriter Regular" ;
+h1,
+h2 {
+  font-family: "P22 Typewriter Regular";
   text-align: center;
   margin-bottom: 10px;
   color: var(--color-special);
 }
 
-h3, h4 {
+h3,
+h4 {
   font-size: 15px;
   text-align: center;
   margin-bottom: 40px;
@@ -37,21 +39,23 @@ p {
   padding: 20px;
 }
 
- a {
+a {
   text-decoration: none;
   color: #000;
 }
 
- a:visited {
+a:visited {
   color: #000;
 }
 
-input, textarea {
+input,
+textarea {
   background-color: transparent;
 }
 
-button, .button {
-  font-family: "P22 Typewriter Regular" ;
+button,
+.button {
+  font-family: "P22 Typewriter Regular";
   border: 3px solid var(--color-special);
   border-radius: 50px;
   padding: 20px;
@@ -63,7 +67,8 @@ button, .button {
   font-size: 15px;
 }
 
-button:hover, .button:hover{
+button:hover,
+.button:hover {
   background-color: var(--color-special);
   color: #fff;
   transition: background-color 500ms ease, color 500ms ease;
@@ -71,30 +76,33 @@ button:hover, .button:hover{
 
 .background-special {
   background: linear-gradient(
-    264.99deg
-    ,rgba(69, 69, 69, 0.8),rgba(0, 0, 0, 1) 100%); 
-    padding: 20px 0;
-    margin-top: 140px;
+    264.99deg,
+    rgba(69, 69, 69, 0.8),
+    rgba(0, 0, 0, 1) 100%
+  );
+  padding: 20px 0;
+  margin-top: 140px;
 }
 
 .background-special-revers {
   background: linear-gradient(
-    264.99deg
-    ,rgba(0, 0, 0, 1),rgba(69, 69, 69, 0.8) 100%); 
-    padding: 20px 0;
-    margin-top: 140px;
+    264.99deg,
+    rgba(0, 0, 0, 1),
+    rgba(69, 69, 69, 0.8) 100%
+  );
+  padding: 20px 0;
+  margin-top: 140px;
 }
 
 .content {
   flex-grow: 1;
-  margin: 30px 20px ;
+  margin: 30px 20px;
 }
 
 .header-placeholder {
   height: 100px;
   width: 100vw;
 }
-
 
 @media (min-width: 768px) {
   .content {
@@ -109,7 +117,7 @@ button:hover, .button:hover{
   border: 1px solid #fff;
 }
 
-.centered-text{
+.centered-text {
   text-align: center;
 }
 
@@ -121,8 +129,12 @@ button:hover, .button:hover{
   padding: 20px;
 }
 
-.hidden-mobile{
+.hidden-mobile {
   display: none;
+}
+
+h2 {
+  font-size: 90%;
 }
 
 @media (min-width: 768px) {
@@ -131,7 +143,7 @@ button:hover, .button:hover{
   }
 }
 
-.hidden-desktop{
+.hidden-desktop {
   display: inline;
 }
 
@@ -149,7 +161,6 @@ button:hover, .button:hover{
   -webkit-animation: animatebottom 0.8s;
   animation: animatebottom 0.8s;
 }
-
 
 @keyframes animatebottom {
   0% {
@@ -169,7 +180,6 @@ button:hover, .button:hover{
 .scrolled.fade-in-bottom {
   animation: fade-in-bottom 1s ease-in-out both;
 }
-
 
 @keyframes fade-in-bottom {
   0% {
