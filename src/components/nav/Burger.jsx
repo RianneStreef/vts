@@ -2,23 +2,21 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import RightNav from "./RightNav";
 
-import "../../styles/global.css";
-
 const StyledBurger = styled.div`
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-flow: column nowrap;
   width: 2rem;
   height: 2rem;
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 23px;
+  right: 25px;
   z-index: 20;
 
   div {
     width: 2rem;
     height: 0.25rem;
-    background-color: ${({ open }) => (open ? "#fff" : "#fff")};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;
@@ -38,7 +36,9 @@ const StyledBurger = styled.div`
 `;
 
 const Burger = (props) => {
-  let { language, setLanguage, languageToUse } = props;
+  let { language, setLanguage, languageToUse, darkMode } = props;
+  console.log("darkMode");
+  console.log(darkMode);
 
   const [open, setOpen] = useState(false);
 
@@ -48,11 +48,12 @@ const Burger = (props) => {
         open={open}
         language={language}
         setLanguage={setLanguage}
+        darkMode={darkMode}
         onClick={() => setOpen(!open)}
       >
-        <div />
-        <div className="big-margin" />
-        <div className="small-margin" />
+        <div className="burger-line" />
+        <div className="burger-line" />
+        <div className="burger-line" />
       </StyledBurger>
       <RightNav
         open={open}

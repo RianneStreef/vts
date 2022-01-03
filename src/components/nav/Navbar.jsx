@@ -14,13 +14,14 @@ const Nav = styled.nav`
 `;
 
 const Navbar = (props) => {
-  let { language, setLanguage, languageToUse } = props;
+  let { language, setLanguage, languageToUse, darkMode } = props;
   return (
-    <Nav id="navbar">
+    <Nav id="navbar" className="navbar">
       <Burger
         language={language}
         setLanguage={setLanguage}
         languageToUse={languageToUse}
+        darkMode={darkMode}
       />
     </Nav>
   );

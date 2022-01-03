@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #000;
-  color: #fff;
+  background-color: var(--background);
+  color: var(--color-inverse);
   align-items: center;
   margin-top: -100px;
 }
@@ -13,7 +13,7 @@
 }
 
 .footer input {
-  background-color: #000;
+  background-color: var(--background);
   border: none;
   border-bottom: 1px solid #fff;
 }
@@ -89,7 +89,7 @@
 }
 
 .footer-icon:visited {
-  color: #fff;
+  color: var(--color-inverse);
   text-decoration: none;
 }
 

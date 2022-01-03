@@ -8,6 +8,10 @@
   --color-highlight: rgb(214, 212, 212);
   --color-dark: #494949;
   --color-special: #40c8e0;
+  --cards: #fff;
+  --background: #000;
+  --color-inverse: #fff;
+  --background-gradient: rgba(69, 69, 69, 0.8);
 }
 
 body {
